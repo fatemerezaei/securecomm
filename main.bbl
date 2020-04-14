@@ -1,0 +1,272 @@
+\begin{thebibliography}{10}
+
+\bibitem{tensorflow2015-whitepaper}
+M.~Abadi, A.~Agarwal, P.~Barham, E.~Brevdo, Z.~Chen, C.~Citro, G.~S. Corrado,
+  A.~Davis, J.~Dean, M.~Devin, S.~Ghemawat, I.~Goodfellow, A.~Harp, G.~Irving,
+  and e.~a. Michael~Isard.
+\newblock {TensorFlow}: Large-scale machine learning on heterogeneous systems,
+  2015.
+\newblock Software available from tensorflow.org.
+
+\bibitem{Andrychowicz:2014}
+M.~Andrychowicz, S.~Dziembowski, D.~Malinowski, and L.~Mazurek.
+\newblock Secure multiparty computations on bitcoin.
+\newblock In {\em Proceedings of the 2014 IEEE Symposium on Security and
+  Privacy}, SP '14, pages 443--458, Washington, DC, USA, 2014. IEEE Computer
+  Society.
+
+\bibitem{hijack}
+M.~Apostolaki, A.~Zohar, and L.~Vanbever.
+\newblock Hijacking bitcoin: Routing attacks on cryptocurrencies.
+\newblock In {\em 2017 {IEEE} Symposium on Security and Privacy, {SP} 2017, San
+  Jose, CA, USA, May 22-26, 2017}, pages 375--392, 2017.
+
+\bibitem{bays2}
+T.~Auld, A.~W. Moore, and S.~F. Gull.
+\newblock Bayesian neural networks for internet traffic classification.
+\newblock {\em {IEEE} Trans. Neural Networks}, 18(1):223--239, 2007.
+
+\bibitem{Bitcoinnetworkoverview}
+A.~Biryukov, D.~Khovratovich, and I.~Pustogarov.
+\newblock Deanonymisation of clients in bitcoin p2p network.
+\newblock In {\em Proceedings of the 2014 ACM SIGSAC Conference on Computer and
+  Communications Security}, pages 15--29. ACM, 2014.
+
+\bibitem{deanom1}
+A.~Biryukov, D.~Khovratovich, and I.~Pustogarov.
+\newblock Deanonymisation of clients in bitcoin {P2P} network.
+\newblock In {\em Proceedings of the 2014 {ACM} {SIGSAC} Conference on Computer
+  and Communications Security, Scottsdale, AZ, USA, November 3-7, 2014}, pages
+  15--29, 2014.
+
+\bibitem{fing-attacks-defenses}
+X.~Cai, X.~Zhang, B.~Joshi, and R.~Johnson.
+\newblock {Touching from a Distance: Website Fingerprinting Attacks and
+  Defenses}.
+\newblock In {\em CCS}, 2012.
+
+\bibitem{trafficClassSVM}
+J.~Cao, Z.~Fang, G.~Qu, H.~Sun, and D.~Zhang.
+\newblock An accurate traffic classification model based on support vector
+  machines.
+\newblock {\em Int. Journal of Network Management}, 27(1), 2017.
+
+\bibitem{keras}
+F.~Chollet.
+\newblock keras.
+\newblock \url{https://github.com/fchollet/keras}, 2015.
+
+\bibitem{prot_fing}
+M.~Crotti, M.~Dusi, F.~Gringoli, and L.~Salgarelli.
+\newblock Traffic classification through simple statistical fingerprinting.
+\newblock {\em Computer Communication Review}, 37(1):5--16, 2007.
+
+\bibitem{tor}
+R.~Dingledine, N.~Mathewson, and P.~Syverson.
+\newblock {Tor: The Second-generation Onion Router}.
+\newblock In {\em USENIX Security}, 2004.
+
+\bibitem{probabilitybook}
+R.~Durrett.
+\newblock {\em Probability: theory and examples}.
+\newblock Cambridge university press, 2010.
+
+\bibitem{fte}
+K.~Dyer, S.~Coull, T.~Ristenpart, and T.~Shrimpton.
+\newblock {Protocol Misidentification Made Easy with Format-transforming
+  Encryption}.
+\newblock In {\em {CCS}}, 2013.
+
+\bibitem{semi}
+J.~Erman, A.~Mahanti, M.~F. Arlitt, I.~Cohen, and C.~L. Williamson.
+\newblock Offline/realtime traffic classification using semi-supervised
+  learning.
+\newblock {\em Perform. Eval.}, 64(9-12):1194--1213, 2007.
+
+\bibitem{web_p2p}
+J.~Erman, A.~Mahanti, M.~F. Arlitt, and C.~L. Williamson.
+\newblock Identifying and discriminating between web and peer-to-peer traffic
+  in the network core.
+\newblock In {\em Proceedings of the 16th International Conference on World
+  Wide Web, {WWW} 2007, Banff, Alberta, Canada, May 8-12, 2007}, pages
+  883--892, 2007.
+
+\bibitem{majority}
+I.~Eyal and E.~G. Sirer.
+\newblock Majority is not enough: bitcoin mining is vulnerable.
+\newblock {\em Commun. {ACM}}, 61(7):95--102, 2018.
+
+\bibitem{meek-PETS}
+D.~Fifield, C.~Lan, R.~Hynes, P.~Wegmann, and V.~Paxson.
+\newblock {Blocking-resistant Communication through Domain Fronting}.
+\newblock In {\em {PETS}}, 2015.
+
+\bibitem{deep_learning_book}
+I.~Goodfellow, Y.~Bengio, and A.~Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+\newblock \url{http://www.deeplearningbook.org}.
+
+\bibitem{eclipse}
+E.~Heilman, A.~Kendler, A.~Zohar, and S.~Goldberg.
+\newblock Eclipse attacks on bitcoin{\textquoteright}s peer-to-peer network.
+\newblock In {\em 24th USENIX Security Symposium (USENIX Security 15)}, pages
+  129--144, Washington, D.C., 2015. USENIX Association.
+
+\bibitem{herrmann2009website}
+D.~Herrmann, R.~Wendolsky, and H.~Federrath.
+\newblock {Website fingerprinting: attacking popular privacy enhancing
+  technologies with the multinomial na{\"\i}ve-bayes classifier}.
+\newblock In {\em {Cloud Computing Security}}, 2009.
+
+\bibitem{ports}
+T.~Karagiannis, A.~Broido, N.~Brownlee, kc~claffy, and M.~Faloutsos.
+\newblock Is {P2P} dying or just hiding? {[P2P} traffic measurement].
+\newblock In {\em Proceedings of the Global Telecommunications Conference,
+  2004. {GLOBECOM} '04, Dallas, Texas, USA, 29 November - 3 December 2004},
+  pages 1532--1538, 2004.
+
+\bibitem{tcp_p2p}
+T.~Karagiannis, A.~Broido, M.~Faloutsos, and K.~C. Claffy.
+\newblock Transport layer identification of {P2P} traffic.
+\newblock In {\em Proceedings of the 4th {ACM} {SIGCOMM} Internet Measurement
+  Conference, {IMC} 2004, Taormina, Sicily, Italy, October 25-27, 2004}, pages
+  121--134, 2004.
+
+\bibitem{blinc}
+T.~Karagiannis, K.~Papagiannaki, and M.~Faloutsos.
+\newblock {BLINC:} multilevel traffic classification in the dark.
+\newblock In {\em Proceedings of the {ACM} {SIGCOMM} 2005 Conference on
+  Applications, Technologies, Architectures, and Protocols for Computer
+  Communications, Philadelphia, Pennsylvania, USA, August 22-26, 2005}, pages
+  229--240, 2005.
+
+\bibitem{double}
+G.~Karame, E.~Androulaki, and S.~Capkun.
+\newblock Double-spending fast payments in bitcoin.
+\newblock In {\em the {ACM} Conference on Computer and Communications Security,
+  CCS'12, Raleigh, NC, USA, October 16-18, 2012}, pages 906--917, 2012.
+
+\bibitem{adam}
+D.~P. Kingma and J.~Ba.
+\newblock Adam: {A} method for stochastic optimization.
+\newblock {\em CoRR}, abs/1412.6980, 2014.
+
+\bibitem{mlEffi}
+W.~Li and A.~W. Moore.
+\newblock A machine learning approach for efficient traffic classification.
+\newblock In {\em 15th International Symposium on Modeling, Analysis, and
+  Simulation of Computer and Telecommunication Systems {(MASCOTS} 2007),
+  October 24-26, 2007, Istanbul, Turkey}, pages 310--317, 2007.
+
+\bibitem{refund}
+P.~McCorry, S.~F. Shahandashti, and F.~Hao.
+\newblock Refund attacks on bitcoin's payment protocol.
+\newblock In {\em Financial Cryptography and Data Security - 20th International
+  Conference, {FC} 2016, Christ Church, Barbados, February 22-26, 2016, Revised
+  Selected Papers}, pages 581--599, 2016.
+
+\bibitem{meek}
+{meek Pluggable Transport}.
+\newblock \url{https://trac.torproject.org/projects/tor/wiki/doc/meek}.
+
+\bibitem{fist}
+S.~Meiklejohn, M.~Pomarole, G.~Jordan, K.~Levchenko, D.~McCoy, G.~M. Voelker,
+  and S.~Savage.
+\newblock A fistful of bitcoins: characterizing payments among men with no
+  names.
+\newblock {\em Commun. {ACM}}, 59(4):86--93, 2016.
+
+\bibitem{Miller:2014}
+A.~Miller, A.~Juels, E.~Shi, B.~Parno, and J.~Katz.
+\newblock Permacoin: Repurposing bitcoin work for data preservation.
+\newblock In {\em Proceedings of the 2014 IEEE Symposium on Security and
+  Privacy}, SP '14, pages 475--490, Washington, DC, USA, 2014. IEEE Computer
+  Society.
+
+\bibitem{MooreZ05}
+A.~W. Moore and D.~Zuev.
+\newblock Internet traffic classification using bayesian analysis techniques.
+\newblock In {\em Proceedings of the International Conference on Measurements
+  and Modeling of Computer Systems, {SIGMETRICS} 2005, June 6-10, 2005, Banff,
+  Alberta, Canada}, pages 50--60, 2005.
+
+\bibitem{bc-design}
+S.~Nakamoto.
+\newblock {Bitcoin: A Peer-to-Peer Electronic Cash System}.
+\newblock \url{https://bitcoin.org/bitcoin.pdf}, 2008.
+
+\bibitem{nakamoto2008bitcoin}
+S.~Nakamoto.
+\newblock Bitcoin: A peer-to-peer electronic cash system.
+\newblock 2008.
+
+\bibitem{deepcore}
+M.~Nasr, A.~Bahramali, and A.~Houmansadr.
+\newblock Deepcorr: Strong flow correlation attacks on tor using deep learning.
+\newblock In {\em Proceedings of the 2018 {ACM} {SIGSAC} Conference on Computer
+  and Communications Security, {CCS} 2018, Toronto, ON, Canada, October 15-19,
+  2018}, pages 1962--1976, 2018.
+
+\bibitem{survey_ml}
+T.~T.~T. Nguyen and G.~J. Armitage.
+\newblock A survey of techniques for internet traffic classification using
+  machine learning.
+\newblock {\em {IEEE} Communications Surveys and Tutorials}, 10(1-4):56--76,
+  2008.
+
+\bibitem{obfsproxy}
+{A Simple Obfuscating Proxy}.
+\newblock \url{https://www.torproject.org/projects/obfsproxy.html.en}.
+
+\bibitem{pluggable-transport}
+{Tor: Pluggable Transports}.
+\newblock \url{https://www.torproject.org/docs/pluggable-transports.html.en}.
+
+\bibitem{tree}
+J.~R. Quinlan.
+\newblock {\em C4.5: Programs for Machine Learning}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1993.
+
+\bibitem{analysis_anon}
+F.~Reid and M.~Harrigan.
+\newblock An analysis of anonymity in the bitcoin system.
+\newblock In {\em PASSAT/SocialCom 2011, Privacy, Security, Risk and Trust
+  (PASSAT), 2011 {IEEE} Third International Conference on and 2011 {IEEE} Third
+  International Conference on Social Computing (SocialCom), Boston, MA, USA,
+  9-11 Oct., 2011}, pages 1318--1326, 2011.
+
+\bibitem{payload_p2p}
+S.~Sen, O.~Spatscheck, and D.~Wang.
+\newblock Accurate, scalable in-network identification of p2p traffic using
+  application signatures.
+\newblock In {\em Proceedings of the 13th international conference on World
+  Wide Web, {WWW} 2004, New York, NY, USA, May 17-20, 2004}, pages 512--521,
+  2004.
+
+\bibitem{scramblesuit}
+P.~Winter, T.~Pulls, and J.~Fuss.
+\newblock Scramblesuit: A polymorphic network protocol to circumvent
+  censorship.
+\newblock In {\em Proceedings of the 12th ACM workshop on Workshop on privacy
+  in the electronic society}, pages 213--224. ACM, 2013.
+
+\bibitem{wright2007language}
+C.~Wright, L.~Ballard, F.~Monrose, and G.~Masson.
+\newblock {Language identification of encrypted VoIP traffic: Alejandra y
+  Roberto or Alice and Bob?}
+\newblock In {\em {USENIX Security}}, 2007.
+
+\bibitem{obfs4}
+Yawning.
+\newblock {Obfsproxy4}.
+\newblock \url{https://github.com/Yawning/obfs4/blob/
+  master/doc/obfs4-spec.txt}, 2015.
+
+\bibitem{svm2}
+R.~Yuan, Z.~Li, X.~Guan, and L.~Xu.
+\newblock An svm-based machine learning method for accurate internet traffic
+  classification.
+\newblock {\em Information Systems Frontiers}, 12(2):149--156, 2010.
+
+\end{thebibliography}

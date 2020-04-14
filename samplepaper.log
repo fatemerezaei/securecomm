@@ -1,0 +1,2434 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.12)  14 APR 2020 11:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**samplepaper.tex
+(./samplepaper.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./llncs.cls
+Document Class: llncs 2018/03/10 v2.20 
+ LaTeX document class for Lecture Notes in Computer Science
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count87
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count88
+\c@collectmore=\count89
+\doublecol@number=\count90
+\multicoltolerance=\count91
+\multicolpretolerance=\count92
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\maxbalancingoverflow=\dimen108
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count93
+\c@finalcolumnbadness=\count94
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\mc@col@check@num=\count95
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/aliascnt.sty
+Package: aliascnt 2016/05/16 v1.4 Alias counters (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/remreset.sty))
+\c@chapter=\count96
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen112
+\tocsecnum=\dimen113
+\tocsectotal=\dimen114
+\tocsubsecnum=\dimen115
+\tocsubsectotal=\dimen116
+\tocsubsubsecnum=\dimen117
+\tocsubsubsectotal=\dimen118
+\tocparanum=\dimen119
+\tocparatotal=\dimen120
+\tocsubparanum=\dimen121
+\@tempcntc=\count97
+\fnindent=\dimen122
+\c@@inst=\count98
+\c@@auth=\count99
+\c@auco=\count100
+\instindent=\dimen123
+\authrun=\box52
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box53
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@theorem=\count101
+\c@case=\count102
+\c@conjecture=\count103
+\c@corollary=\count104
+\c@definition=\count105
+\c@example=\count106
+\c@exercise=\count107
+\c@lemma=\count108
+\c@note=\count109
+\c@problem=\count110
+\c@property=\count111
+\c@proposition=\count112
+\c@question=\count113
+\c@solution=\count114
+\c@remark=\count115
+\headlineindent=\dimen124
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+\captionmargin=\dimen125
+\captionmargin@=\dimen126
+\captionwidth=\dimen127
+\caption@tempdima=\dimen128
+\caption@indent=\dimen129
+\caption@parindent=\dimen130
+\caption@hangindent=\dimen131
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\small \vskip \abovecap
+tionskip \sbox \@tempboxa {{\bfseries #1.} #2}\ifdim \wd \@tempboxa >\hsize {\b
+fseries #1.} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@
+tempboxa \hfil }\fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count116
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count117
+\float@exts=\toks21
+\float@box=\box54
+\@float@everytoks=\toks22
+\@floatcapt=\box55
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count118
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count119
+\c@ALG@rem=\count120
+\c@ALG@nested=\count121
+\ALG@tlm=\skip45
+\ALG@thistlm=\skip46
+\c@ALG@Lnr=\count122
+\c@ALG@blocknr=\count123
+\c@ALG@storecount=\count124
+\c@ALG@tmpcounter=\count125
+\ALG@tmplength=\skip47
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks24
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count126
+\calc@Bcount=\count127
+\calc@Adimen=\dimen132
+\calc@Bdimen=\dimen133
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count128
+\calc@Cskip=\skip50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen134
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count129
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count130
+\leftroot@=\count131
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count132
+\DOTSCASE@=\count133
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen136
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+\macc@depth=\count134
+\c@MaxMatrixCols=\count135
+\dotsspace@=\muskip10
+\c@parentequation=\count136
+\dspbrk@lvl=\count137
+\tag@help=\toks26
+\row@=\count138
+\column@=\count139
+\maxfields@=\count140
+\andhelp@=\toks27
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
+\@envbody=\toks28
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count141
+\l_MT_multwidth_dim=\dimen143
+\origjot=\skip54
+\l_MT_shortvdotswithinadjustabove_dim=\dimen144
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen145
+\l_MT_above_intertext_sep=\dimen146
+\l_MT_below_intertext_sep=\dimen147
+\l_MT_above_shortintertext_sep=\dimen148
+\l_MT_below_shortintertext_sep=\dimen149
+) (/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip55
+\plpartopsep=\skip56
+\plitemsep=\skip57
+\plparsep=\skip58
+\pl@lab=\toks30
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count142
+\multirow@dima=\skip60
+\bigstrutjot=\dimen150
+)
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen151
+\extrarowheight=\dimen152
+\NC@list=\toks31
+\extratabsurround=\skip61
+\backup@length=\skip62
+)
+\rotheadsize=\dimen153
+\c@nlinenum=\count143
+\TeXr@lab=\toks32
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks33
+\verbatim@line=\toks34
+\verbatim@in@stream=\read1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count144
+\c@subtable=\count145
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
+)
+\XKV@depth=\count146
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks37
+\pgfutil@tempdima=\dimen156
+\pgfutil@tempdimb=\dimen157
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box58
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks40
+))
+\pgf@x=\dimen158
+\pgf@y=\dimen159
+\pgf@xa=\dimen160
+\pgf@ya=\dimen161
+\pgf@xb=\dimen162
+\pgf@yb=\dimen163
+\pgf@xc=\dimen164
+\pgf@yc=\dimen165
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count147
+\c@pgf@countb=\count148
+\c@pgf@countc=\count149
+\c@pgf@countd=\count150
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count151
+\pgfsyssoftpath@bigbuffer@items=\count152
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen166
+\pgfmath@count=\count153
+\pgfmath@box=\box59
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count154
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen167
+\pgf@picmaxx=\dimen168
+\pgf@picminy=\dimen169
+\pgf@picmaxy=\dimen170
+\pgf@pathminx=\dimen171
+\pgf@pathmaxx=\dimen172
+\pgf@pathminy=\dimen173
+\pgf@pathmaxy=\dimen174
+\pgf@xx=\dimen175
+\pgf@xy=\dimen176
+\pgf@yx=\dimen177
+\pgf@yy=\dimen178
+\pgf@zx=\dimen179
+\pgf@zy=\dimen180
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen181
+\pgf@path@lasty=\dimen182
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen183
+\pgf@shorten@start@additional=\dimen184
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count155
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen185
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen186
+\pgf@pt@y=\dimen187
+\pgf@pt@temp=\dimen188
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen189
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen190
+\pgf@sys@shading@range@num=\count156
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box63
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box64
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen191
+\pgf@nodesepend=\dimen192
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen193
+\pgffor@skip=\dimen194
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count157
+\pgfplotmarksize=\dimen195
+)
+\tikz@lastx=\dimen196
+\tikz@lasty=\dimen197
+\tikz@lastxsaved=\dimen198
+\tikz@lastysaved=\dimen199
+\tikzleveldistance=\dimen256
+\tikzsiblingdistance=\dimen257
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count158
+\tikznumberofchildren=\count159
+\tikznumberofcurrentchild=\count160
+\tikz@fig@count=\count161
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count162
+\pgfmatrixcurrentcolumn=\count163
+\pgf@matrix@numberofcolumns=\count164
+)
+\tikz@expandcount=\count165
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+\c@@todonotes@numberoftodonotes=\count166
+)
+\c@todocounter=\count167
+ (./samplepaper.aux)
+\openout1 = `samplepaper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: Incompatible package detected (regarding \@caption).
+(caption)             \@caption = \long macro:#1[#2]#3->\par \addcontentsline {
+\csname ext@#1\endcsname }{#1}{\protect \numberline {\csname the#1\endcsname }{
+\ignorespaces #2}}\begingroup \@parboxrestore \@makecaption {\csname fnum@#1\en
+dcsname }{\ignorespaces #3}\par \endgroup .
+
+
+Package caption Warning: \caption will not be redefined since it's already
+(caption)                redefined by a document class or package which is
+(caption)                unknown to the caption package.
+See the caption package documentation for explanation.
+
+Package caption Info: float package is loaded.
+
+! Package caption Error: The `subcaption' package does not work correctly
+(caption)                in compatibility mode.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 \begin{document}
+                     
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package caption Info: End \AtBeginDocument code.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count168
+\scratchdimen=\dimen258
+\scratchbox=\box69
+\nofMPsegments=\count169
+\nofMParguments=\count170
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count171
+\MPscratchDim=\dimen259
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
+\everyMPtoPDFconversion=\toks50
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for U+msa on input line 102.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 102.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 102
+.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 102.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 102.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 118.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
+ (./files/intro.tex
+
+LaTeX Warning: Citation `bc-design' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation `Andrychowicz:2014' on page 1 undefined on input line 1
+5.
+
+
+LaTeX Warning: Citation `Miller:2014' on page 1 undefined on input line 15.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `wright2007language' on page 2 undefined on input line 
+33.
+
+
+LaTeX Warning: Citation `herrmann2009website' on page 2 undefined on input line
+ 33.
+
+
+LaTeX Warning: Citation `fing-attacks-defenses' on page 2 undefined on input li
+ne 33.
+
+
+LaTeX Warning: Citation `tor' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `pluggable-transport' on page 2 undefined on input line
+ 42.
+
+
+LaTeX Warning: Citation `fte' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `meek' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `obfsproxy' on page 2 undefined on input line 42.
+
+
+Underfull \vbox (badness 5726) has occurred while \output is active []
+
+ [2]
+
+LaTeX Warning: Citation `fte' on page 3 undefined on input line 73.
+
+
+LaTeX Warning: Citation `meek' on page 3 undefined on input line 73.
+
+
+LaTeX Warning: Citation `obfsproxy' on page 3 undefined on input line 73.
+
+
+LaTeX Warning: Citation `nakamoto2008bitcoin' on page 3 undefined on input line
+ 80.
+
+
+LaTeX Warning: Citation `Bitcoinnetworkoverview' on page 3 undefined on input l
+ine 87.
+
+) (./files/characterization.tex [3]
+Overfull \hbox (98.6238pt too wide) in paragraph at lines 14--26
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <image/inv_pktsizes.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1428806 bytes
+(epstopdf)             Output file: <image/inv_pktsizes-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 23252 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/inv_pktsizes-eps-con
+verted-to.pdf image/inv_pktsizes.eps>
+(epstopdf)             \includegraphics on input line 33.
+Package epstopdf Info: Output file is already uptodate.
+<image/inv_pktsizes-eps-converted-to.pdf, id=30, 587.19376pt x 442.65375pt>
+File: image/inv_pktsizes-eps-converted-to.pdf Graphic file (type pdf)
+<use image/inv_pktsizes-eps-converted-to.pdf>
+Package pdftex.def Info: image/inv_pktsizes-eps-converted-to.pdf  used on input
+ line 33.
+(pdftex.def)             Requested size: 48.59708pt x 36.6288pt.
+Package epstopdf Info: Source file: <image/getdata_pktsizes.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1337672 bytes
+(epstopdf)             Output file: <image/getdata_pktsizes-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 16737 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/getdata_pktsizes-eps
+-converted-to.pdf image/getdata_pktsizes.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+<image/getdata_pktsizes-eps-converted-to.pdf, id=31, 587.19376pt x 442.65375pt>
+
+File: image/getdata_pktsizes-eps-converted-to.pdf Graphic file (type pdf)
+<use image/getdata_pktsizes-eps-converted-to.pdf>
+Package pdftex.def Info: image/getdata_pktsizes-eps-converted-to.pdf  used on i
+nput line 39.
+(pdftex.def)             Requested size: 48.59708pt x 36.6288pt.
+Package epstopdf Info: Source file: <image/block_pktsizes.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1373917 bytes
+(epstopdf)             Output file: <image/block_pktsizes-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 18795 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/block_pktsizes-eps-c
+onverted-to.pdf image/block_pktsizes.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+<image/block_pktsizes-eps-converted-to.pdf, id=32, 587.19376pt x 442.65375pt>
+File: image/block_pktsizes-eps-converted-to.pdf Graphic file (type pdf)
+<use image/block_pktsizes-eps-converted-to.pdf>
+Package pdftex.def Info: image/block_pktsizes-eps-converted-to.pdf  used on inp
+ut line 45.
+(pdftex.def)             Requested size: 48.59708pt x 36.6288pt.
+Package epstopdf Info: Source file: <image/sendcmpct_pktsizes.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1426811 bytes
+(epstopdf)             Output file: <image/sendcmpct_pktsizes-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 21863 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/sendcmpct_pktsizes-e
+ps-converted-to.pdf image/sendcmpct_pktsizes.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+<image/sendcmpct_pktsizes-eps-converted-to.pdf, id=33, 587.19376pt x 442.65375p
+t>
+File: image/sendcmpct_pktsizes-eps-converted-to.pdf Graphic file (type pdf)
+<use image/sendcmpct_pktsizes-eps-converted-to.pdf>
+Package pdftex.def Info: image/sendcmpct_pktsizes-eps-converted-to.pdf  used on
+ input line 51.
+(pdftex.def)             Requested size: 48.59708pt x 36.6288pt.
+Package epstopdf Info: Source file: <image/cmpctblock_pktsizes.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1430674 bytes
+(epstopdf)             Output file: <image/cmpctblock_pktsizes-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 21927 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/cmpctblock_pktsizes-
+eps-converted-to.pdf image/cmpctblock_pktsizes.eps>
+(epstopdf)             \includegraphics on input line 57.
+Package epstopdf Info: Output file is already uptodate.
+<image/cmpctblock_pktsizes-eps-converted-to.pdf, id=34, 587.19376pt x 442.65375
+pt>
+File: image/cmpctblock_pktsizes-eps-converted-to.pdf Graphic file (type pdf)
+<use image/cmpctblock_pktsizes-eps-converted-to.pdf>
+Package pdftex.def Info: image/cmpctblock_pktsizes-eps-converted-to.pdf  used o
+n input line 57.
+(pdftex.def)             Requested size: 48.59708pt x 36.6288pt.
+Package epstopdf Info: Source file: <image/getblocktxn_pktsizes.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1240452 bytes
+(epstopdf)             Output file: <image/getblocktxn_pktsizes-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 10553 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/getblocktxn_pktsizes
+-eps-converted-to.pdf image/getblocktxn_pktsizes.eps>
+(epstopdf)             \includegraphics on input line 63.
+Package epstopdf Info: Output file is already uptodate.
+<image/getblocktxn_pktsizes-eps-converted-to.pdf, id=35, 587.19376pt x 442.6537
+5pt>
+File: image/getblocktxn_pktsizes-eps-converted-to.pdf Graphic file (type pdf)
+<use image/getblocktxn_pktsizes-eps-converted-to.pdf>
+Package pdftex.def Info: image/getblocktxn_pktsizes-eps-converted-to.pdf  used 
+on input line 63.
+(pdftex.def)             Requested size: 48.59708pt x 36.6288pt.
+
+Overfull \hbox (3.37732pt too wide) in paragraph at lines 64--64
+[]|\OT1/cmtt/m/n/9 getblocktxn| 
+ []
+
+Package epstopdf Info: Source file: <image/blocktxn_pktsizes.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1345812 bytes
+(epstopdf)             Output file: <image/blocktxn_pktsizes-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 16747 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/blocktxn_pktsizes-ep
+s-converted-to.pdf image/blocktxn_pktsizes.eps>
+(epstopdf)             \includegraphics on input line 69.
+Package epstopdf Info: Output file is already uptodate.
+<image/blocktxn_pktsizes-eps-converted-to.pdf, id=36, 587.19376pt x 442.65375pt
+>
+File: image/blocktxn_pktsizes-eps-converted-to.pdf Graphic file (type pdf)
+<use image/blocktxn_pktsizes-eps-converted-to.pdf>
+Package pdftex.def Info: image/blocktxn_pktsizes-eps-converted-to.pdf  used on 
+input line 69.
+(pdftex.def)             Requested size: 48.59708pt x 36.6288pt.
+Package epstopdf Info: Source file: <image/tx_pktsizes.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1429428 bytes
+(epstopdf)             Output file: <image/tx_pktsizes-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 24100 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/tx_pktsizes-eps-conv
+erted-to.pdf image/tx_pktsizes.eps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+<image/tx_pktsizes-eps-converted-to.pdf, id=37, 587.19376pt x 442.65375pt>
+File: image/tx_pktsizes-eps-converted-to.pdf Graphic file (type pdf)
+<use image/tx_pktsizes-eps-converted-to.pdf>
+Package pdftex.def Info: image/tx_pktsizes-eps-converted-to.pdf  used on input 
+line 75.
+(pdftex.def)             Requested size: 48.59708pt x 36.6288pt.
+Package epstopdf Info: Source file: <image/cmpctblock_pkt_size_upstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1429700 bytes
+(epstopdf)             Output file: <image/cmpctblock_pkt_size_upstream-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 21631 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/cmpctblock_pkt_size_
+upstream-eps-converted-to.pdf image/cmpctblock_pkt_size_upstream.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+<image/cmpctblock_pkt_size_upstream-eps-converted-to.pdf, id=38, 587.19376pt x 
+442.65375pt>
+File: image/cmpctblock_pkt_size_upstream-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use image/cmpctblock_pkt_size_upstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/cmpctblock_pkt_size_upstream-eps-converted-to.pd
+f  used on input line 87.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\OT1/cmr/m/n/9 Com-pact
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\OT1/cmr/m/n/9 block, up-
+ []
+
+Package epstopdf Info: Source file: <image/cmpctblock_pkt_size_downstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1430485 bytes
+(epstopdf)             Output file: <image/cmpctblock_pkt_size_downstream-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 23611 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/cmpctblock_pkt_size_
+downstream-eps-converted-to.pdf image/cmpctblock_pkt_size_downstream.eps>
+(epstopdf)             \includegraphics on input line 93.
+Package epstopdf Info: Output file is already uptodate.
+<image/cmpctblock_pkt_size_downstream-eps-converted-to.pdf, id=39, 587.19376pt 
+x 442.65375pt>
+File: image/cmpctblock_pkt_size_downstream-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use image/cmpctblock_pkt_size_downstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/cmpctblock_pkt_size_downstream-eps-converted-to.
+pdf  used on input line 93.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/9 Com-pact
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 94--94
+\OT1/cmr/m/n/9 block, down-
+ []
+
+Package epstopdf Info: Source file: <image/fullblock_pkt_size_upstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1432131 bytes
+(epstopdf)             Output file: <image/fullblock_pkt_size_upstream-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 21706 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/fullblock_pkt_size_u
+pstream-eps-converted-to.pdf image/fullblock_pkt_size_upstream.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+<image/fullblock_pkt_size_upstream-eps-converted-to.pdf, id=40, 587.19376pt x 4
+42.65375pt>
+File: image/fullblock_pkt_size_upstream-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use image/fullblock_pkt_size_upstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/fullblock_pkt_size_upstream-eps-converted-to.pdf
+  used on input line 99.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]|\OT1/cmr/m/n/9 Full Block,
+ []
+
+Package epstopdf Info: Source file: <image/fullblock_pkt_size_downstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1431045 bytes
+(epstopdf)             Output file: <image/fullblock_pkt_size_downstream-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 23197 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/fullblock_pkt_size_d
+ownstream-eps-converted-to.pdf image/fullblock_pkt_size_downstream.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+<image/fullblock_pkt_size_downstream-eps-converted-to.pdf, id=41, 587.19376pt x
+ 442.65375pt>
+File: image/fullblock_pkt_size_downstream-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use image/fullblock_pkt_size_downstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/fullblock_pkt_size_downstream-eps-converted-to.p
+df  used on input line 105.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\OT1/cmr/m/n/9 Full block,
+ []
+
+Package epstopdf Info: Source file: <image/http_pkt_size_upstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1425422 bytes
+(epstopdf)             Output file: <image/http_pkt_size_upstream-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 22455 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/http_pkt_size_upstre
+am-eps-converted-to.pdf image/http_pkt_size_upstream.eps>
+(epstopdf)             \includegraphics on input line 111.
+Package epstopdf Info: Output file is already uptodate.
+<image/http_pkt_size_upstream-eps-converted-to.pdf, id=42, 587.19376pt x 442.65
+375pt>
+File: image/http_pkt_size_upstream-eps-converted-to.pdf Graphic file (type pdf)
+
+<use image/http_pkt_size_upstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/http_pkt_size_upstream-eps-converted-to.pdf  use
+d on input line 111.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/9 HTTP, up-
+ []
+
+Package epstopdf Info: Source file: <image/http_pkt_size_downstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1430025 bytes
+(epstopdf)             Output file: <image/http_pkt_size_downstream-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 22910 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/http_pkt_size_downst
+ream-eps-converted-to.pdf image/http_pkt_size_downstream.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+<image/http_pkt_size_downstream-eps-converted-to.pdf, id=43, 587.19376pt x 442.
+65375pt>
+File: image/http_pkt_size_downstream-eps-converted-to.pdf Graphic file (type pd
+f)
+<use image/http_pkt_size_downstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/http_pkt_size_downstream-eps-converted-to.pdf  u
+sed on input line 117.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+Package epstopdf Info: Source file: <image/ftp_pkt_size_upstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1248324 bytes
+(epstopdf)             Output file: <image/ftp_pkt_size_upstream-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 11518 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/ftp_pkt_size_upstrea
+m-eps-converted-to.pdf image/ftp_pkt_size_upstream.eps>
+(epstopdf)             \includegraphics on input line 123.
+Package epstopdf Info: Output file is already uptodate.
+<image/ftp_pkt_size_upstream-eps-converted-to.pdf, id=44, 587.19376pt x 442.653
+75pt>
+File: image/ftp_pkt_size_upstream-eps-converted-to.pdf Graphic file (type pdf)
+<use image/ftp_pkt_size_upstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/ftp_pkt_size_upstream-eps-converted-to.pdf  used
+ on input line 123.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\OT1/cmr/m/n/9 FTP, up-
+ []
+
+Package epstopdf Info: Source file: <image/ftp_pkt_size_downstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1263737 bytes
+(epstopdf)             Output file: <image/ftp_pkt_size_downstream-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 12643 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/ftp_pkt_size_downstr
+eam-eps-converted-to.pdf image/ftp_pkt_size_downstream.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+<image/ftp_pkt_size_downstream-eps-converted-to.pdf, id=45, 587.19376pt x 442.6
+5375pt>
+File: image/ftp_pkt_size_downstream-eps-converted-to.pdf Graphic file (type pdf
+)
+<use image/ftp_pkt_size_downstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/ftp_pkt_size_downstream-eps-converted-to.pdf  us
+ed on input line 129.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[]|\OT1/cmr/m/n/9 FTP, down-
+ []
+
+Package epstopdf Info: Source file: <image/ssh_pkt_size_upstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1331604 bytes
+(epstopdf)             Output file: <image/ssh_pkt_size_upstream-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 16644 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/ssh_pkt_size_upstrea
+m-eps-converted-to.pdf image/ssh_pkt_size_upstream.eps>
+(epstopdf)             \includegraphics on input line 135.
+Package epstopdf Info: Output file is already uptodate.
+<image/ssh_pkt_size_upstream-eps-converted-to.pdf, id=46, 587.19376pt x 442.653
+75pt>
+File: image/ssh_pkt_size_upstream-eps-converted-to.pdf Graphic file (type pdf)
+<use image/ssh_pkt_size_upstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/ssh_pkt_size_upstream-eps-converted-to.pdf  used
+ on input line 135.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\OT1/cmr/m/n/9 SSH, up-
+ []
+
+Package epstopdf Info: Source file: <image/ssh_pkt_size_downstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1338476 bytes
+(epstopdf)             Output file: <image/ssh_pkt_size_downstream-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 17271 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/ssh_pkt_size_downstr
+eam-eps-converted-to.pdf image/ssh_pkt_size_downstream.eps>
+(epstopdf)             \includegraphics on input line 141.
+Package epstopdf Info: Output file is already uptodate.
+<image/ssh_pkt_size_downstream-eps-converted-to.pdf, id=47, 587.19376pt x 442.6
+5375pt>
+File: image/ssh_pkt_size_downstream-eps-converted-to.pdf Graphic file (type pdf
+)
+<use image/ssh_pkt_size_downstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/ssh_pkt_size_downstream-eps-converted-to.pdf  us
+ed on input line 141.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[]|\OT1/cmr/m/n/9 SSH, down-
+ []
+
+Package epstopdf Info: Source file: <image/voip_pkt_size_upstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1400538 bytes
+(epstopdf)             Output file: <image/voip_pkt_size_upstream-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 23451 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/voip_pkt_size_upstre
+am-eps-converted-to.pdf image/voip_pkt_size_upstream.eps>
+(epstopdf)             \includegraphics on input line 147.
+Package epstopdf Info: Output file is already uptodate.
+<image/voip_pkt_size_upstream-eps-converted-to.pdf, id=48, 587.19376pt x 442.65
+375pt>
+File: image/voip_pkt_size_upstream-eps-converted-to.pdf Graphic file (type pdf)
+
+<use image/voip_pkt_size_upstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/voip_pkt_size_upstream-eps-converted-to.pdf  use
+d on input line 147.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\OT1/cmr/m/n/9 VoIP, up-
+ []
+
+Package epstopdf Info: Source file: <image/voip_pkt_size_downstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1407303 bytes
+(epstopdf)             Output file: <image/voip_pkt_size_downstream-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 22871 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/voip_pkt_size_downst
+ream-eps-converted-to.pdf image/voip_pkt_size_downstream.eps>
+(epstopdf)             \includegraphics on input line 153.
+Package epstopdf Info: Output file is already uptodate.
+<image/voip_pkt_size_downstream-eps-converted-to.pdf, id=49, 587.19376pt x 442.
+65375pt>
+File: image/voip_pkt_size_downstream-eps-converted-to.pdf Graphic file (type pd
+f)
+<use image/voip_pkt_size_downstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/voip_pkt_size_downstream-eps-converted-to.pdf  u
+sed on input line 153.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 5388) in paragraph at lines 154--154
+[]|\OT1/cmr/m/n/9 VoIP, down-
+ []
+
+Package epstopdf Info: Source file: <image/bittorrent_pkt_size_upstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1413127 bytes
+(epstopdf)             Output file: <image/bittorrent_pkt_size_upstream-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 20893 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/bittorrent_pkt_size_
+upstream-eps-converted-to.pdf image/bittorrent_pkt_size_upstream.eps>
+(epstopdf)             \includegraphics on input line 159.
+Package epstopdf Info: Output file is already uptodate.
+<image/bittorrent_pkt_size_upstream-eps-converted-to.pdf, id=50, 587.19376pt x 
+442.65375pt>
+File: image/bittorrent_pkt_size_upstream-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use image/bittorrent_pkt_size_upstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/bittorrent_pkt_size_upstream-eps-converted-to.pd
+f  used on input line 159.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
+[]|\OT1/cmr/m/n/9 Bit-Tor-rent,
+ []
+
+Package epstopdf Info: Source file: <image/bittorrent_pkt_size_downstream.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1428258 bytes
+(epstopdf)             Output file: <image/bittorrent_pkt_size_downstream-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 22052 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/bittorrent_pkt_size_
+downstream-eps-converted-to.pdf image/bittorrent_pkt_size_downstream.eps>
+(epstopdf)             \includegraphics on input line 165.
+Package epstopdf Info: Output file is already uptodate.
+<image/bittorrent_pkt_size_downstream-eps-converted-to.pdf, id=51, 587.19376pt 
+x 442.65375pt>
+File: image/bittorrent_pkt_size_downstream-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use image/bittorrent_pkt_size_downstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/bittorrent_pkt_size_downstream-eps-converted-to.
+pdf  used on input line 165.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|\OT1/cmr/m/n/9 Bit-Tor-rent,
+ []
+
+[4 <./image/inv_pktsizes-eps-converted-to.pdf> <./image/getdata_pktsizes-eps-co
+nverted-to.pdf> <./image/block_pktsizes-eps-converted-to.pdf> <./image/sendcmpc
+t_pktsizes-eps-converted-to.pdf> <./image/cmpctblock_pktsizes-eps-converted-to.
+pdf> <./image/getblocktxn_pktsizes-eps-converted-to.pdf> <./image/blocktxn_pkts
+izes-eps-converted-to.pdf> <./image/tx_pktsizes-eps-converted-to.pdf>]
+Underfull \vbox (badness 2452) has occurred while \output is active []
+
+ [5 <./image/cmpctblock_pkt_size_upstream-eps-converted-to.pdf> <./image/cmpctb
+lock_pkt_size_downstream-eps-converted-to.pdf> <./image/fullblock_pkt_size_upst
+ream-eps-converted-to.pdf> <./image/fullblock_pkt_size_downstream-eps-converted
+-to.pdf> <./image/http_pkt_size_upstream-eps-converted-to.pdf> <./image/http_pk
+t_size_downstream-eps-converted-to.pdf> <./image/ftp_pkt_size_upstream-eps-conv
+erted-to.pdf> <./image/ftp_pkt_size_downstream-eps-converted-to.pdf> <./image/s
+sh_pkt_size_upstream-eps-converted-to.pdf> <./image/ssh_pkt_size_downstream-eps
+-converted-to.pdf> <./image/voip_pkt_size_upstream-eps-converted-to.pdf> <./ima
+ge/voip_pkt_size_downstream-eps-converted-to.pdf> <./image/bittorrent_pkt_size_
+upstream-eps-converted-to.pdf> <./image/bittorrent_pkt_size_downstream-eps-conv
+erted-to.pdf>]
+Package epstopdf Info: Source file: <image/ratio_downstream_upstream_traffic_vo
+lume_bitcoin.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1236477 bytes
+(epstopdf)             Output file: <image/ratio_downstream_upstream_traffic_vo
+lume_bitcoin-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 10799 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/ratio_downstream_ups
+tream_traffic_volume_bitcoin-eps-converted-to.pdf image/ratio_downstream_upstre
+am_traffic_volume_bitcoin.eps>
+(epstopdf)             \includegraphics on input line 222.
+Package epstopdf Info: Output file is already uptodate.
+<image/ratio_downstream_upstream_traffic_volume_bitcoin-eps-converted-to.pdf, i
+d=190, 587.19376pt x 442.65375pt>
+File: image/ratio_downstream_upstream_traffic_volume_bitcoin-eps-converted-to.p
+df Graphic file (type pdf)
+<use image/ratio_downstream_upstream_traffic_volume_bitcoin-eps-converted-to.pd
+f>
+Package pdftex.def Info: image/ratio_downstream_upstream_traffic_volume_bitcoin
+-eps-converted-to.pdf  used on input line 222.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+Package epstopdf Info: Source file: <image/ratio_downstream_upstream_traffic_vo
+lume_http.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1238883 bytes
+(epstopdf)             Output file: <image/ratio_downstream_upstream_traffic_vo
+lume_http-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 11994 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/ratio_downstream_ups
+tream_traffic_volume_http-eps-converted-to.pdf image/ratio_downstream_upstream_
+traffic_volume_http.eps>
+(epstopdf)             \includegraphics on input line 227.
+Package epstopdf Info: Output file is already uptodate.
+<image/ratio_downstream_upstream_traffic_volume_http-eps-converted-to.pdf, id=1
+91, 587.19376pt x 442.65375pt>
+File: image/ratio_downstream_upstream_traffic_volume_http-eps-converted-to.pdf 
+Graphic file (type pdf)
+<use image/ratio_downstream_upstream_traffic_volume_http-eps-converted-to.pdf>
+Package pdftex.def Info: image/ratio_downstream_upstream_traffic_volume_http-ep
+s-converted-to.pdf  used on input line 227.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 3471) in paragraph at lines 228--228
+[]|\OT1/cmr/m/n/9 HTTP, ra-tio
+ []
+
+Package epstopdf Info: Source file: <image/ratio_downstream_upstream_traffic_vo
+lume_ftp.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1238478 bytes
+(epstopdf)             Output file: <image/ratio_downstream_upstream_traffic_vo
+lume_ftp-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 12024 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/ratio_downstream_ups
+tream_traffic_volume_ftp-eps-converted-to.pdf image/ratio_downstream_upstream_t
+raffic_volume_ftp.eps>
+(epstopdf)             \includegraphics on input line 232.
+Package epstopdf Info: Output file is already uptodate.
+<image/ratio_downstream_upstream_traffic_volume_ftp-eps-converted-to.pdf, id=19
+2, 587.19376pt x 442.65375pt>
+File: image/ratio_downstream_upstream_traffic_volume_ftp-eps-converted-to.pdf G
+raphic file (type pdf)
+<use image/ratio_downstream_upstream_traffic_volume_ftp-eps-converted-to.pdf>
+Package pdftex.def Info: image/ratio_downstream_upstream_traffic_volume_ftp-eps
+-converted-to.pdf  used on input line 232.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[]|\OT1/cmr/m/n/9 FTP, ra-tio
+ []
+
+Package epstopdf Info: Source file: <image/ratio_downstream_upstream_traffic_vo
+lume_ssh.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1237812 bytes
+(epstopdf)             Output file: <image/ratio_downstream_upstream_traffic_vo
+lume_ssh-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 11814 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/ratio_downstream_ups
+tream_traffic_volume_ssh-eps-converted-to.pdf image/ratio_downstream_upstream_t
+raffic_volume_ssh.eps>
+(epstopdf)             \includegraphics on input line 237.
+Package epstopdf Info: Output file is already uptodate.
+<image/ratio_downstream_upstream_traffic_volume_ssh-eps-converted-to.pdf, id=19
+3, 587.19376pt x 442.65375pt>
+File: image/ratio_downstream_upstream_traffic_volume_ssh-eps-converted-to.pdf G
+raphic file (type pdf)
+<use image/ratio_downstream_upstream_traffic_volume_ssh-eps-converted-to.pdf>
+Package pdftex.def Info: image/ratio_downstream_upstream_traffic_volume_ssh-eps
+-converted-to.pdf  used on input line 237.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
+[]|\OT1/cmr/m/n/9 SSH, ra-tio
+ []
+
+Package epstopdf Info: Source file: <image/ratio_downstream_upstream_traffic_vo
+lume_voip.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1237937 bytes
+(epstopdf)             Output file: <image/ratio_downstream_upstream_traffic_vo
+lume_voip-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 11647 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/ratio_downstream_ups
+tream_traffic_volume_voip-eps-converted-to.pdf image/ratio_downstream_upstream_
+traffic_volume_voip.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
+<image/ratio_downstream_upstream_traffic_volume_voip-eps-converted-to.pdf, id=1
+94, 587.19376pt x 442.65375pt>
+File: image/ratio_downstream_upstream_traffic_volume_voip-eps-converted-to.pdf 
+Graphic file (type pdf)
+<use image/ratio_downstream_upstream_traffic_volume_voip-eps-converted-to.pdf>
+Package pdftex.def Info: image/ratio_downstream_upstream_traffic_volume_voip-ep
+s-converted-to.pdf  used on input line 242.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
+[]|\OT1/cmr/m/n/9 VoIP, ra-tio
+ []
+
+Package epstopdf Info: Source file: <image/ratio_downstream_upstream_traffic_vo
+lume_bittorrent.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1237076 bytes
+(epstopdf)             Output file: <image/ratio_downstream_upstream_traffic_vo
+lume_bittorrent-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 11731 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/ratio_downstream_ups
+tream_traffic_volume_bittorrent-eps-converted-to.pdf image/ratio_downstream_ups
+tream_traffic_volume_bittorrent.eps>
+(epstopdf)             \includegraphics on input line 247.
+Package epstopdf Info: Output file is already uptodate.
+<image/ratio_downstream_upstream_traffic_volume_bittorrent-eps-converted-to.pdf
+, id=195, 587.19376pt x 442.65375pt>
+File: image/ratio_downstream_upstream_traffic_volume_bittorrent-eps-converted-t
+o.pdf Graphic file (type pdf)
+<use image/ratio_downstream_upstream_traffic_volume_bittorrent-eps-converted-to
+.pdf>
+Package pdftex.def Info: image/ratio_downstream_upstream_traffic_volume_bittorr
+ent-eps-converted-to.pdf  used on input line 247.
+(pdftex.def)             Requested size: 55.54103pt x 41.86342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\OT1/cmr/m/n/9 Bit-Tor-rent,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\OT1/cmr/m/n/9 ra-tio per
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\OT1/cmr/m/n/9 5 min-utes
+ []
+
+<image/bitcoin_traffic_pattern.pdf, id=196, 587.19376pt x 442.65375pt>
+File: image/bitcoin_traffic_pattern.pdf Graphic file (type pdf)
+<use image/bitcoin_traffic_pattern.pdf>
+Package pdftex.def Info: image/bitcoin_traffic_pattern.pdf  used on input line 
+278.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+Package epstopdf Info: Source file: <image/cmpctblock_traffic_volume_good.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1395964 bytes
+(epstopdf)             Output file: <image/cmpctblock_traffic_volume_good-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 58355 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/cmpctblock_traffic_v
+olume_good-eps-converted-to.pdf image/cmpctblock_traffic_volume_good.eps>
+(epstopdf)             \includegraphics on input line 284.
+Package epstopdf Info: Output file is already uptodate.
+<image/cmpctblock_traffic_volume_good-eps-converted-to.pdf, id=197, 587.19376pt
+ x 442.65375pt>
+File: image/cmpctblock_traffic_volume_good-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use image/cmpctblock_traffic_volume_good-eps-converted-to.pdf>
+Package pdftex.def Info: image/cmpctblock_traffic_volume_good-eps-converted-to.
+pdf  used on input line 284.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+[6 <./image/ratio_downstream_upstream_traffic_volume_bitcoin-eps-converted-to.p
+df> <./image/ratio_downstream_upstream_traffic_volume_http-eps-converted-to.pdf
+> <./image/ratio_downstream_upstream_traffic_volume_ftp-eps-converted-to.pdf> <
+./image/ratio_downstream_upstream_traffic_volume_ssh-eps-converted-to.pdf> <./i
+mage/ratio_downstream_upstream_traffic_volume_voip-eps-converted-to.pdf> <./ima
+ge/ratio_downstream_upstream_traffic_volume_bittorrent-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <image/cmpctblock_traffic_volume.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1238467 bytes
+(epstopdf)             Output file: <image/cmpctblock_traffic_volume-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 11682 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/cmpctblock_traffic_v
+olume-eps-converted-to.pdf image/cmpctblock_traffic_volume.eps>
+(epstopdf)             \includegraphics on input line 301.
+Package epstopdf Info: Output file is already uptodate.
+<image/cmpctblock_traffic_volume-eps-converted-to.pdf, id=238, 587.19376pt x 44
+2.65375pt>
+File: image/cmpctblock_traffic_volume-eps-converted-to.pdf Graphic file (type p
+df)
+<use image/cmpctblock_traffic_volume-eps-converted-to.pdf>
+Package pdftex.def Info: image/cmpctblock_traffic_volume-eps-converted-to.pdf  
+used on input line 301.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+Package epstopdf Info: Source file: <image/blocktxn_volume.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1242382 bytes
+(epstopdf)             Output file: <image/blocktxn_volume-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 12686 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/blocktxn_volume-eps-
+converted-to.pdf image/blocktxn_volume.eps>
+(epstopdf)             \includegraphics on input line 307.
+Package epstopdf Info: Output file is already uptodate.
+<image/blocktxn_volume-eps-converted-to.pdf, id=239, 587.19376pt x 442.65375pt>
+
+File: image/blocktxn_volume-eps-converted-to.pdf Graphic file (type pdf)
+<use image/blocktxn_volume-eps-converted-to.pdf>
+Package pdftex.def Info: image/blocktxn_volume-eps-converted-to.pdf  used on in
+put line 307.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+
+
+LaTeX Warning: Citation `probabilitybook' on page 7 undefined on input line 323
+.
+
+
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+ [7 <./image/bitcoin_traffic_pattern.pdf> <./image/cmpctblock_traffic_volume_go
+od-eps-converted-to.pdf> <./image/cmpctblock_traffic_volume-eps-converted-to.pd
+f> <./image/blocktxn_volume-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <image/cmpctblock_time_difference.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1231747 bytes
+(epstopdf)             Output file: <image/cmpctblock_time_difference-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 10552 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/cmpctblock_time_diff
+erence-eps-converted-to.pdf image/cmpctblock_time_difference.eps>
+(epstopdf)             \includegraphics on input line 328.
+Package epstopdf Info: Output file is already uptodate.
+<image/cmpctblock_time_difference-eps-converted-to.pdf, id=273, 587.19376pt x 4
+42.65375pt>
+File: image/cmpctblock_time_difference-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use image/cmpctblock_time_difference-eps-converted-to.pdf>
+Package pdftex.def Info: image/cmpctblock_time_difference-eps-converted-to.pdf 
+ used on input line 328.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+Package epstopdf Info: Source file: <image/prop_delay_beta.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1231707 bytes
+(epstopdf)             Output file: <image/prop_delay_beta-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 10502 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/prop_delay_beta-eps-
+converted-to.pdf image/prop_delay_beta.eps>
+(epstopdf)             \includegraphics on input line 334.
+Package epstopdf Info: Output file is already uptodate.
+<image/prop_delay_beta-eps-converted-to.pdf, id=274, 587.19376pt x 442.65375pt>
+
+File: image/prop_delay_beta-eps-converted-to.pdf Graphic file (type pdf)
+<use image/prop_delay_beta-eps-converted-to.pdf>
+Package pdftex.def Info: image/prop_delay_beta-eps-converted-to.pdf  used on in
+put line 334.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+) (./files/classifiers.tex
+(./algorithm_packet_size.tex [8 <./image/cmpctblock_time_difference-eps-convert
+ed-to.pdf> <./image/prop_delay_beta-eps-converted-to.pdf>])
+
+LaTeX Warning: Citation `tor' on page 9 undefined on input line 21.
+
+[9] (./algorithm.tex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10] [11]
+
+LaTeX Warning: Citation `deep_learning_book' on page 12 undefined on input line
+ 109.
+
+
+LaTeX Warning: Citation `adam' on page 12 undefined on input line 109.
+
+) (./files/setup.tex
+
+LaTeX Warning: Citation `tor' on page 12 undefined on input line 11.
+
+
+LaTeX Warning: Citation `obfs4' on page 12 undefined on input line 13.
+
+
+LaTeX Warning: Citation `fte' on page 12 undefined on input line 13.
+
+
+LaTeX Warning: Citation `meek' on page 12 undefined on input line 13.
+
+[12]
+
+LaTeX Warning: Citation `deepcore' on page 13 undefined on input line 31.
+
+<image/jan25/cmp_sizeHist.pdf, id=309, 1734.48pt x 897.05139pt>
+File: image/jan25/cmp_sizeHist.pdf Graphic file (type pdf)
+<use image/jan25/cmp_sizeHist.pdf>
+Package pdftex.def Info: image/jan25/cmp_sizeHist.pdf  used on input line 90.
+(pdftex.def)             Requested size: 166.61781pt x 86.16522pt.
+<image/jan25/full_sizeHist.pdf, id=310, 1734.48pt x 897.05139pt>
+File: image/jan25/full_sizeHist.pdf Graphic file (type pdf)
+<use image/jan25/full_sizeHist.pdf>
+Package pdftex.def Info: image/jan25/full_sizeHist.pdf  used on input line 96.
+(pdftex.def)             Requested size: 166.61781pt x 86.16522pt.
+[13]) (./files/exp.tex [14 <./image/jan25/cmp_sizeHist.pdf> <./image/jan25/full
+_sizeHist.pdf
+
+pdfTeX warning: pdflatex (file ./image/jan25/full_sizeHist.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
+<image/jan25/full_d2u.pdf, id=405, 1734.48pt x 897.05139pt>
+File: image/jan25/full_d2u.pdf Graphic file (type pdf)
+<use image/jan25/full_d2u.pdf>
+Package pdftex.def Info: image/jan25/full_d2u.pdf  used on input line 21.
+(pdftex.def)             Requested size: 166.61781pt x 86.16522pt.
+<image/jan25/cmp_d2u.pdf, id=406, 1734.48pt x 897.05139pt>
+File: image/jan25/cmp_d2u.pdf Graphic file (type pdf)
+<use image/jan25/cmp_d2u.pdf>
+Package pdftex.def Info: image/jan25/cmp_d2u.pdf  used on input line 27.
+(pdftex.def)             Requested size: 166.61781pt x 86.16522pt.
+ [15] [16 <./image/jan25/full_d2u.pdf> <./image/jan25/cmp_d2u.pdf
+
+pdfTeX warning: pdflatex (file ./image/jan25/cmp_d2u.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+<image/jan25/window.pdf, id=500, 1734.48pt x 897.05139pt>
+File: image/jan25/window.pdf Graphic file (type pdf)
+<use image/jan25/window.pdf>
+Package pdftex.def Info: image/jan25/window.pdf  used on input line 56.
+(pdftex.def)             Requested size: 260.16077pt x 134.5519pt.
+
+
+LaTeX Warning: Citation `keras' on page 17 undefined on input line 62.
+
+
+LaTeX Warning: Citation `tensorflow2015-whitepaper' on page 17 undefined on inp
+ut line 62.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17 <./image/jan25/window.pdf>]) (./files/counter.tex [18]
+
+LaTeX Warning: Citation `pluggable-transport' on page 19 undefined on input lin
+e 10.
+
+
+LaTeX Warning: Citation `scramblesuit' on page 19 undefined on input line 14.
+
+
+LaTeX Warning: Citation `meek-PETS' on page 19 undefined on input line 18.
+
+<image/ratio_609_upstream_compact_vanilla_tor.png, id=559, 586.8324pt x 442.292
+4pt>
+File: image/ratio_609_upstream_compact_vanilla_tor.png Graphic file (type png)
+<use image/ratio_609_upstream_compact_vanilla_tor.png>
+Package pdftex.def Info: image/ratio_609_upstream_compact_vanilla_tor.png  used
+ on input line 24.
+(pdftex.def)             Requested size: 166.61781pt x 125.57547pt.
+Package epstopdf Info: Source file: <image/ratio_609_downstream_compact_vanilla
+_tor.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 59701 bytes
+(epstopdf)             Output file: <image/ratio_609_downstream_compact_vanilla
+_tor-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 17357 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/ratio_609_downstream
+_compact_vanilla_tor-eps-converted-to.pdf image/ratio_609_downstream_compact_va
+nilla_tor.eps>
+(epstopdf)             \includegraphics on input line 30.
+Package epstopdf Info: Output file is already uptodate.
+<image/ratio_609_downstream_compact_vanilla_tor-eps-converted-to.pdf, id=561, 5
+87.19376pt x 442.65375pt>
+File: image/ratio_609_downstream_compact_vanilla_tor-eps-converted-to.pdf Graph
+ic file (type pdf)
+<use image/ratio_609_downstream_compact_vanilla_tor-eps-converted-to.pdf>
+Package pdftex.def Info: image/ratio_609_downstream_compact_vanilla_tor-eps-con
+verted-to.pdf  used on input line 30.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+[19 <./image/ratio_609_upstream_compact_vanilla_tor.png> <./image/ratio_609_dow
+nstream_compact_vanilla_tor-eps-converted-to.pdf>]
+<image/jan25/sizeTor-multiTab.pdf, id=597, 1734.48pt x 897.05139pt>
+File: image/jan25/sizeTor-multiTab.pdf Graphic file (type pdf)
+<use image/jan25/sizeTor-multiTab.pdf>
+Package pdftex.def Info: image/jan25/sizeTor-multiTab.pdf  used on input line 6
+6.
+(pdftex.def)             Requested size: 260.16077pt x 134.5519pt.
+) (./files/related.tex
+
+LaTeX Warning: Citation `tcp_p2p' on page 20 undefined on input line 9.
+
+
+LaTeX Warning: Citation ` ports' on page 20 undefined on input line 9.
+
+
+LaTeX Warning: Citation ` port_madhukar' on page 20 undefined on input line 9.
+
+
+LaTeX Warning: Citation ` payload_p2p' on page 20 undefined on input line 9.
+
+
+LaTeX Warning: Citation `payload_p2p' on page 20 undefined on input line 10.
+
+
+LaTeX Warning: Citation ` payload_content' on page 20 undefined on input line 1
+0.
+
+
+LaTeX Warning: Citation ` payload_app' on page 20 undefined on input line 10.
+
+
+LaTeX Warning: Citation ` payload_moore' on page 20 undefined on input line 10.
+
+
+
+LaTeX Warning: Citation `ports' on page 20 undefined on input line 12.
+
+
+LaTeX Warning: Citation `blinc' on page 20 undefined on input line 13.
+
+
+LaTeX Warning: Citation `prot_fing' on page 20 undefined on input line 14.
+
+
+LaTeX Warning: Citation `web_p2p' on page 20 undefined on input line 21.
+
+
+Overfull \hbox (4.7382pt too wide) in paragraph at lines 7--28
+\OT1/cmr/m/n/10 There is a huge work in lit-er-a-ture try-ing to clas-sify dif-
+fer-ent ap-pli-ca-tions/protocols
+ []
+
+[20]
+
+LaTeX Warning: Citation `semi' on page 21 undefined on input line 31.
+
+
+LaTeX Warning: Citation `trafficClassSVM' on page 21 undefined on input line 31
+.
+
+
+LaTeX Warning: Citation `svm2' on page 21 undefined on input line 31.
+
+
+LaTeX Warning: Citation `MooreZ05' on page 21 undefined on input line 32.
+
+
+LaTeX Warning: Citation `bays2' on page 21 undefined on input line 32.
+
+
+LaTeX Warning: Citation `mlEffi' on page 21 undefined on input line 32.
+
+
+LaTeX Warning: Citation `tree' on page 21 undefined on input line 32.
+
+
+LaTeX Warning: Citation `survey_ml' on page 21 undefined on input line 33.
+
+
+LaTeX Warning: Citation ` myth' on page 21 undefined on input line 33.
+
+[21 <./image/jan25/sizeTor-multiTab.pdf>]
+
+LaTeX Warning: Citation `hijack' on page 22 undefined on input line 38.
+
+
+LaTeX Warning: Citation `eclipse' on page 22 undefined on input line 40.
+
+
+LaTeX Warning: Citation `analysis_anon' on page 22 undefined on input line 41.
+
+
+LaTeX Warning: Citation ` privacy_anon' on page 22 undefined on input line 41.
+
+
+LaTeX Warning: Citation ` struct' on page 22 undefined on input line 41.
+
+
+LaTeX Warning: Citation ` fist' on page 22 undefined on input line 41.
+
+
+LaTeX Warning: Citation ` quant' on page 22 undefined on input line 41.
+
+
+LaTeX Warning: Citation `fist' on page 22 undefined on input line 42.
+
+[22]
+
+LaTeX Warning: Citation `deanom1' on page 23 undefined on input line 44.
+
+
+LaTeX Warning: Citation `double' on page 23 undefined on input line 46.
+
+
+LaTeX Warning: Citation `majority' on page 23 undefined on input line 48.
+
+
+LaTeX Warning: Citation `refund' on page 23 undefined on input line 49.
+
+) (./files/concl.tex)
+No file samplepaper.bbl.
+(./files/appendix.tex
+Overfull \hbox (117.12022pt too wide) in paragraph at lines 9--43
+ [][] 
+ []
+
+[23]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 49.
+ [24]
+<image/btc-protocol-flow.pdf, id=659, 655.44875pt x 303.1325pt>
+File: image/btc-protocol-flow.pdf Graphic file (type pdf)
+<use image/btc-protocol-flow.pdf>
+Package pdftex.def Info: image/btc-protocol-flow.pdf  used on input line 68.
+(pdftex.def)             Requested size: 229.41049pt x 106.09796pt.
+ [25 <./image/btc-protocol-flow.pdf>]
+Package epstopdf Info: Source file: <image/tor_reg_traffic_pkt_size_upstream.ep
+s>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1263474 bytes
+(epstopdf)             Output file: <image/tor_reg_traffic_pkt_size_upstream-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 12493 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/tor_reg_traffic_pkt_
+size_upstream-eps-converted-to.pdf image/tor_reg_traffic_pkt_size_upstream.eps>
+
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+<image/tor_reg_traffic_pkt_size_upstream-eps-converted-to.pdf, id=667, 587.1937
+6pt x 442.65375pt>
+File: image/tor_reg_traffic_pkt_size_upstream-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use image/tor_reg_traffic_pkt_size_upstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/tor_reg_traffic_pkt_size_upstream-eps-converted-
+to.pdf  used on input line 101.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+Package epstopdf Info: Source file: <image/tor_reg_traffic_pkt_size_downstream.
+eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1253263 bytes
+(epstopdf)             Output file: <image/tor_reg_traffic_pkt_size_downstream-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 11303 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/tor_reg_traffic_pkt_
+size_downstream-eps-converted-to.pdf image/tor_reg_traffic_pkt_size_downstream.
+eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+<image/tor_reg_traffic_pkt_size_downstream-eps-converted-to.pdf, id=668, 587.19
+376pt x 442.65375pt>
+File: image/tor_reg_traffic_pkt_size_downstream-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use image/tor_reg_traffic_pkt_size_downstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/tor_reg_traffic_pkt_size_downstream-eps-converte
+d-to.pdf  used on input line 107.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+Package epstopdf Info: Source file: <image/tor_compact_block_pkt_size_upstream.
+eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1294764 bytes
+(epstopdf)             Output file: <image/tor_compact_block_pkt_size_upstream-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 14237 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/tor_compact_block_pk
+t_size_upstream-eps-converted-to.pdf image/tor_compact_block_pkt_size_upstream.
+eps>
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
+<image/tor_compact_block_pkt_size_upstream-eps-converted-to.pdf, id=669, 587.19
+376pt x 442.65375pt>
+File: image/tor_compact_block_pkt_size_upstream-eps-converted-to.pdf Graphic fi
+le (type pdf)
+<use image/tor_compact_block_pkt_size_upstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/tor_compact_block_pkt_size_upstream-eps-converte
+d-to.pdf  used on input line 113.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+Package epstopdf Info: Source file: <image/tor_compact_block_pkt_size_downstrea
+m.eps>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1407469 bytes
+(epstopdf)             Output file: <image/tor_compact_block_pkt_size_downstrea
+m-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 20956 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/tor_compact_block_pk
+t_size_downstream-eps-converted-to.pdf image/tor_compact_block_pkt_size_downstr
+eam.eps>
+(epstopdf)             \includegraphics on input line 119.
+Package epstopdf Info: Output file is already uptodate.
+<image/tor_compact_block_pkt_size_downstream-eps-converted-to.pdf, id=670, 587.
+19376pt x 442.65375pt>
+File: image/tor_compact_block_pkt_size_downstream-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use image/tor_compact_block_pkt_size_downstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/tor_compact_block_pkt_size_downstream-eps-conver
+ted-to.pdf  used on input line 119.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+Package epstopdf Info: Source file: <image/tor_fullblock_pkt_size_upstream.eps>
+
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1370899 bytes
+(epstopdf)             Output file: <image/tor_fullblock_pkt_size_upstream-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 18241 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/tor_fullblock_pkt_si
+ze_upstream-eps-converted-to.pdf image/tor_fullblock_pkt_size_upstream.eps>
+(epstopdf)             \includegraphics on input line 125.
+Package epstopdf Info: Output file is already uptodate.
+<image/tor_fullblock_pkt_size_upstream-eps-converted-to.pdf, id=671, 587.19376p
+t x 442.65375pt>
+File: image/tor_fullblock_pkt_size_upstream-eps-converted-to.pdf Graphic file (
+type pdf)
+<use image/tor_fullblock_pkt_size_upstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/tor_fullblock_pkt_size_upstream-eps-converted-to
+.pdf  used on input line 125.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+Package epstopdf Info: Source file: <image/tor_fullblock_pkt_size_downstream.ep
+s>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 1427078 bytes
+(epstopdf)             Output file: <image/tor_fullblock_pkt_size_downstream-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2019-06-30 17:54:12
+(epstopdf)                    size: 21603 bytes
+(epstopdf)             Command: <repstopdf --outfile=image/tor_fullblock_pkt_si
+ze_downstream-eps-converted-to.pdf image/tor_fullblock_pkt_size_downstream.eps>
+
+(epstopdf)             \includegraphics on input line 131.
+Package epstopdf Info: Output file is already uptodate.
+<image/tor_fullblock_pkt_size_downstream-eps-converted-to.pdf, id=672, 587.1937
+6pt x 442.65375pt>
+File: image/tor_fullblock_pkt_size_downstream-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use image/tor_fullblock_pkt_size_downstream-eps-converted-to.pdf>
+Package pdftex.def Info: image/tor_fullblock_pkt_size_downstream-eps-converted-
+to.pdf  used on input line 131.
+(pdftex.def)             Requested size: 166.61781pt x 125.60376pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--135
+[]$[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--135
+[]$ $[]$
+ []
+
+) [26] [27 <./image/tor_reg_traffic_pkt_size_upstream-eps-converted-to.pdf> <./
+image/tor_reg_traffic_pkt_size_downstream-eps-converted-to.pdf> <./image/tor_co
+mpact_block_pkt_size_upstream-eps-converted-to.pdf> <./image/tor_compact_block_
+pkt_size_downstream-eps-converted-to.pdf> <./image/tor_fullblock_pkt_size_upstr
+eam-eps-converted-to.pdf> <./image/tor_fullblock_pkt_size_downstream-eps-conver
+ted-to.pdf>] (./samplepaper.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 16705 strings out of 492982
+ 322775 string characters out of 6134896
+ 357140 words of memory out of 5000000
+ 19820 multiletter control sequences out of 15000+600000
+ 15633 words of font info for 59 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,13n,76p,1375b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
+msam10.pfb>
+Output written on samplepaper.pdf (27 pages, 1549360 bytes).
+PDF statistics:
+ 788 PDF objects out of 1000 (max. 8388607)
+ 339 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+

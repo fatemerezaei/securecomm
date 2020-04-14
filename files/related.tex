@@ -1,0 +1,57 @@
+
+\section{Related Work}\label{related}
+In this section, we overview previous work on 
+classifying different protocols and discuss previous attacks on \bc cryptocurrency.
+
+\subsection{Protocol Classification}
+There is a huge work in literature trying to classify different applications/protocols in the network.
+Previously, researchers were focused on classifying the applications according
+to port numbers~\cite{tcp_p2p, ports, port_madhukar, payload_p2p} and 
+payload~\cite{payload_p2p, payload_content, payload_app, payload_moore}. There were some problems 
+in the previous methods which made them change their approach. 
+For example, many applications use uncertain port numbers~\cite{ports}, or some encrypt their payloads which makes it impossible to classify them  according to payload and port numbers.
+Recent techniques use statistics such as packet sizes and timings for classification. For example, in~\cite{blinc}, authors use a three-level classification mechanism -social, functional and application level- to classify web, p2p, chat, media, gaming, data transfer, streaming and network management traffic. As the authors mention, they do not use any information about port
+numbers or payload content for their operation. Their result shows that their method can classify $80$ $-$ $90\%$ of traffic flows with more than $95\%$ accuracy. In~\cite{prot_fing}, authors use packet sizes, inter-arrival times and their orderings to distinguish between HTTP, SMTP, SSH, etc. The reason that they choose these features is that at least during the beginning stage of each application these quantities highly depend on the application. They use \textit{anomaly score} to check if a flow is statistically compatible with one of the traffic classes.
+Note that they compare their result with previous payload-based techniques and state 
+that their approach reaches more than $90\%$ hit-ratio for all the considered classes 
+and false positive around $6\%$ in the worst scenario.
+% using only a few packets. they use Anomaly score to classify the traffic.
+%In~\cite{skype} uses packet inscpetion which is based on content of payload
+%and also some other statistics. Therefore, it is a mixed work with stat and payload inspection
+In~\cite{web_p2p}, authors use duration, number of bytes, and number
+of packets to classify flows at the network core where only one side of the flow is available (server-to-client or client-to-server). 
+They propose a method based on syntax and semantics of TCP protocol to estimate the missing 
+statistics, which is due to not having both sides of the flow. They use K-Means algorithm for clustering traffics including Web, P2P and FTP, and use byte 
+and flow accuracy to evaluate their mechanism. 
+They show that server-to-client datasets give the best performance: 95$\%$ and 79$\%$ 
+flow and byte accuracy, respectively.
+
+In some of the studies, researchers apply machine learning techniques on these features to classify different applications.
+%For example, in~\cite{early_ident}, authors use the direction ans size of the first few packets of a TCP connection to distinguish the application. They use K-Means, Gaussian Mixture Model and spectral clustering % this is clustering, not classification. Therefoe, I am commenting.
+For example, in~\cite{semi}, authors take a semi-supervised approach to classify a variety of applications such as FTP, HTTP, P2P. They use some statistics such as the total number of packets, average packet size, and total bytes to classify different applications. They show that their technique could reach high accuracy by using a few labeled data and a large number of unlabeled samples. In~\cite{trafficClassSVM}, authors use SVM to classify different applications such as WWW, Mail, and FTP. They show that their approach can reach a good accuracy if they choose the classifier's parameters cautiously. Also, in~\cite{svm2} authors use SVM to classify a broad application category such as Mail, buck traffic, service. They extract statistics such as packet length, byte ratio of sent and received packets, number of packets per flow, window size and transport protocol type as their feature, and show that their method reaches more than $95\%$ accuracy using these features.
+In~\cite{MooreZ05}, Andrew W. Moore et al. use a Bayesian technique to classify different traffic such as P2P and WWW. They show that the simplest Bayesian technique would not provide a good accuracy ($65\%$) and to improve their technique they use two main refinements which would improve the accuracy to $95\%$. Moreover, in~\cite{bays2}, authors use Bayesian neural network to classify Internet traffic using just header-derived statistics. They show that their method is comparable to the ones that use payload or other sophisticated traffic processing techniques. In ~\cite{mlEffi}, Wei Li et al. use C4.5~\cite{tree} decision tree to classify Internet traffic such as mail, gaming, database, and browsing. They reach an accuracy of $99.8$ using $12$ features collected at the start of the flow.
+  In~\cite{survey_ml, myth}, authors survey the papers on Internet traffic classification using machine learning techniques. 
+  To the best of our knowledge, we are the first ones who attempt to distinguish \bc traffic from other applications. We design several binary classifiers to detect \bc traffic in the presence of small background noises. Furthermore, we utilize Neural Networks to detect \bc traffic in the presence of more complex background noises such as browsing more than one website (up to $5$) or running applications from CAIDA (up to $5$ number of different applications).
+
+  \subsection{Attacks on \bc Cryptocurrency}
+ In this section, we discuss the previous attacks on the \bc network. 
+ In~\cite{hijack}, the authors discuss routing attacks, their impact, and possible countermeasures. They study partitioning and delay attacks by investigating node-level and network-wide attacks for both. They adopt delay attack to slow down the propagation of blocks toward a set of nodes. Moreover, they use partitioning attack to isolate a set of nodes in the \bc network by diverting or cutting all the connections from those nodes to the network.
+ 
+In~\cite{eclipse}, authors design eclipse attack in which the attacker isolate a victim from its peers by monopolizing its all incoming and outgoing connections. Doing so, the attacker can filter the victim's view of the network and therefore, force the victim to waste her computing power on an outdated view of the network. Furthermore, there have been many deanonymization attacks on \bc. 
+In~\cite{analysis_anon, privacy_anon, struct, fist, quant}, authors use \bc transaction patterns
+to link users (or link transactions) using some side information. For example, in \cite{fist}, the authors design some heuristics to utilize the transaction graph to link transactions to the addresses and eventually infer the identities linked to them.
+
+In~\cite{deanom1}, the authors propose a new technique to link the public key of a user to her address or link her transactions. They show that they could launch their attacks even when the clients are behind NAT using only a few numbers of machines.
+ 
+ In~\cite{double}, they analyze the security of using \bc for fast payments and show that the current \bc system is not secure unless they integrate \bc network with some detection mechanism.
+ Also, they study double spending attacks on fast payments and  implement a method to prevent it.
+ In~\cite{majority}, the authors introduce selfish-mine in which a pool can obtain a revenue larger than its share of mining power. In this attack, selfish miners hide their mined blocks to create a private branch and selectively reveal them. Doing so, they force the honest miners to move to the new head of the blocks and waste their computing power on the wrong block.
+In~\cite{refund}, the authors propose a new attack on the \bc payment system that exploits some authentication vulnerability, or some weakness on the refund procedure. They suggest a revision on the \bc payment protocol, which prevents both attacks.
+%\fatemeh{this is our attack:}
+
+In our paper, we tackle the privacy of \bc users by detecting their \bc traffic even when
+a user tries to hide its \bc traffic using cover traffic or tunneling through Tor. %There are many reasons that a user needs to hide its \bc traffic. One of the main reasons is that in some countries having \bc is illegal.
+
+
+% In ~\cite{traffic_bitcoin}
+ %In ~\cite{selfish},

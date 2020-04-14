@@ -1,0 +1,284 @@
+\relax 
+\citation{bc-design}
+\citation{Andrychowicz:2014}
+\citation{Miller:2014}
+\citation{wright2007language,herrmann2009website,fing-attacks-defenses}
+\@writefile{toc}{\contentsline {title}{The Bitcoin Hunter: Detecting Bitcoin Traffic Over Encrypted Channels\unskip {}}{1}}
+\@writefile{toc}{\authcount {1}}
+\@writefile{toc}{\contentsline {author}{No Author Given}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\citation{tor}
+\citation{pluggable-transport}
+\citation{fte}
+\citation{meek}
+\citation{obfsproxy}
+\citation{fte}
+\citation{meek}
+\citation{obfsproxy}
+\citation{nakamoto2008bitcoin}
+\citation{Bitcoinnetworkoverview}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Background on Bitcoin}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Characterizing Bitcoin\xspace  Traffic}{3}}
+\newlabel{sec:charachterzing_bc}{{3}{3}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Number and percentage of each message in a 31 days Bitcoin traffic in compact block relaying\relax }}{4}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{table:msg_proportion}{{1}{4}}
+\newlabel{fig:inv_pktsizes}{{1a}{4}}
+\newlabel{sub@fig:inv_pktsizes}{{a}{4}}
+\newlabel{fig:getdata_pktsizes}{{1b}{4}}
+\newlabel{sub@fig:getdata_pktsizes}{{b}{4}}
+\newlabel{fig:block_pktsizes}{{1c}{4}}
+\newlabel{sub@fig:block_pktsizes}{{c}{4}}
+\newlabel{fig:sendcmpct_pktsizes}{{1d}{4}}
+\newlabel{sub@fig:sendcmpct_pktsizes}{{d}{4}}
+\newlabel{fig:cmpctblock_pktsizes}{{1e}{4}}
+\newlabel{sub@fig:cmpctblock_pktsizes}{{e}{4}}
+\newlabel{fig:getblocktxn_pktsizes}{{1f}{4}}
+\newlabel{sub@fig:getblocktxn_pktsizes}{{f}{4}}
+\newlabel{fig:blocktxn_pktsizes}{{1g}{4}}
+\newlabel{sub@fig:blocktxn_pktsizes}{{g}{4}}
+\newlabel{fig:tx_pktsizes}{{1h}{4}}
+\newlabel{sub@fig:tx_pktsizes}{{h}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Packet size distribution of Bitcoin\xspace  communication messages in compact block relaying\relax }}{4}}
+\newlabel{fig:sizedist}{{1}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Proportion and Distribution of Messages}{4}}
+\newlabel{sec:prop_dist_msg}{{3.1}{4}}
+\newlabel{fig:aggregate_pkt_size_upstream_cmpct}{{2a}{5}}
+\newlabel{sub@fig:aggregate_pkt_size_upstream_cmpct}{{a}{5}}
+\newlabel{fig:aggregate_pkt_size_downstream_cmpct}{{2b}{5}}
+\newlabel{sub@fig:aggregate_pkt_size_downstream_cmpct}{{b}{5}}
+\newlabel{fig:aggregate_pkt_size_upstream_full}{{2c}{5}}
+\newlabel{sub@fig:aggregate_pkt_size_upstream_full}{{c}{5}}
+\newlabel{fig:aggregate_pkt_size_downstream_full}{{2d}{5}}
+\newlabel{sub@fig:aggregate_pkt_size_downstream_full}{{d}{5}}
+\newlabel{fig:http_pkt_size_upstream}{{2e}{5}}
+\newlabel{sub@fig:http_pkt_size_upstream}{{e}{5}}
+\newlabel{fig:http_pkt_size_downstream}{{2f}{5}}
+\newlabel{sub@fig:http_pkt_size_downstream}{{f}{5}}
+\newlabel{fig:ftp_pkt_size_upstream}{{2g}{5}}
+\newlabel{sub@fig:ftp_pkt_size_upstream}{{g}{5}}
+\newlabel{fig:ftp_pkt_size_downstream}{{2h}{5}}
+\newlabel{sub@fig:ftp_pkt_size_downstream}{{h}{5}}
+\newlabel{fig:ssh_pkt_size_upstream}{{2i}{5}}
+\newlabel{sub@fig:ssh_pkt_size_upstream}{{i}{5}}
+\newlabel{fig:ssh_pkt_size_downstream}{{2j}{5}}
+\newlabel{sub@fig:ssh_pkt_size_downstream}{{j}{5}}
+\newlabel{fig:voip_pkt_size_upstream}{{2k}{5}}
+\newlabel{sub@fig:voip_pkt_size_upstream}{{k}{5}}
+\newlabel{fig:voip_pkt_size_downstream}{{2l}{5}}
+\newlabel{sub@fig:voip_pkt_size_downstream}{{l}{5}}
+\newlabel{fig:bittorrent_pkt_size_upstream}{{2m}{5}}
+\newlabel{sub@fig:bittorrent_pkt_size_upstream}{{m}{5}}
+\newlabel{fig:bittorrent_pkt_size_downstream}{{2n}{5}}
+\newlabel{sub@fig:bittorrent_pkt_size_downstream}{{n}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Upstream and downstream packet size distribution of Bitcoin\xspace  and several popular protocols\relax }}{5}}
+\newlabel{fig:traff-hist}{{2}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Shape of Traffic}{6}}
+\newlabel{sec:shape_of_traffic}{{3.2}{6}}
+\newlabel{fig:ratio_downstream_upstream_traffic_volume_bitcoin}{{3a}{6}}
+\newlabel{sub@fig:ratio_downstream_upstream_traffic_volume_bitcoin}{{a}{6}}
+\newlabel{fig:ratio_downstream_upstream_traffic_volume_http}{{3b}{6}}
+\newlabel{sub@fig:ratio_downstream_upstream_traffic_volume_http}{{b}{6}}
+\newlabel{ratio_downstream_upstream_traffic_volume_ftp}{{3c}{6}}
+\newlabel{sub@ratio_downstream_upstream_traffic_volume_ftp}{{c}{6}}
+\newlabel{ratio_downstream_upstream_traffic_volume_ssh}{{3d}{6}}
+\newlabel{sub@ratio_downstream_upstream_traffic_volume_ssh}{{d}{6}}
+\newlabel{ratio_downstream_upstream_traffic_volume_voip}{{3e}{6}}
+\newlabel{sub@ratio_downstream_upstream_traffic_volume_voip}{{e}{6}}
+\newlabel{ratio_downstream_upstream_traffic_volume_bittorrent}{{3f}{6}}
+\newlabel{sub@ratio_downstream_upstream_traffic_volume_bittorrent}{{f}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Ratio of downstream to upstream traffic volume\relax }}{6}}
+\citation{probabilitybook}
+\newlabel{fig:bitcoin_traffic_pattern}{{4a}{7}}
+\newlabel{sub@fig:bitcoin_traffic_pattern}{{a}{7}}
+\newlabel{fig:cmpctblock_traffic_volume_detectable}{{4b}{7}}
+\newlabel{sub@fig:cmpctblock_traffic_volume_detectable}{{b}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Comparing time of each block receive with time of blocks in the block chain in a) Full block and b) Compact block modes\relax }}{7}}
+\newlabel{fig:cmpctblock_traffic_volume}{{5a}{7}}
+\newlabel{sub@fig:cmpctblock_traffic_volume}{{a}{7}}
+\newlabel{fig:blocktxn_volume}{{5b}{7}}
+\newlabel{sub@fig:blocktxn_volume}{{b}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Histogram of compact block mode components\relax }}{7}}
+\newlabel{fig:hist_cmp_component}{{5}{7}}
+\citation{tor}
+\newlabel{fig:cmpctblock_time_difference}{{6a}{8}}
+\newlabel{sub@fig:cmpctblock_time_difference}{{a}{8}}
+\newlabel{fig:prop_delay}{{6b}{8}}
+\newlabel{sub@fig:prop_delay}{{b}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Histogram of block propagation delay\relax }}{8}}
+\newlabel{fig:prop_delay_full_compact}{{6}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Designing Bitcoin\xspace  Classifiers}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Size-based Classifier}{8}}
+\newlabel{sec:all-packet-size-classifier}{{4.1}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{Size histogram classifier ({\tt  {SizeHist}})}{8}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Size histogram classifier\relax }}{9}}
+\newlabel{algo:pktsize_scheme}{{1}{9}}
+\@writefile{toc}{\contentsline {subsubsection}{Tor-specific Classifier ({\tt  {SizeTor}}):}{9}}
+\@writefile{toc}{\contentsline {subsubsection}{Downstream to upstream traffic volume ratio ({\tt  {D2U}})}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Shape-based Classifier}{10}}
+\newlabel{window-sec}{{4.2}{10}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Shape based classifier\relax }}{10}}
+\newlabel{algo:window_based_scheme}{{2}{10}}
+\citation{deep_learning_book}
+\citation{adam}
+\newlabel{gt_gf}{{1}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Neural Network-based Classifier (NN-based)}{11}}
+\newlabel{class:nn}{{4.3}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{Feature selection}{11}}
+\citation{tor}
+\citation{obfs4}
+\citation{fte}
+\citation{meek}
+\citation{deepcore}
+\@writefile{toc}{\contentsline {subsubsection}{Designing the model}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Setup}{12}}
+\newlabel{sec:exp-dataset}{{5}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Datasets}{12}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Traffic Class Breakdown For CAIDA Dataset\relax }}{13}}
+\newlabel{tab:traffic_class}{{2}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Metrics}{13}}
+\newlabel{fig:vanilla_sizeTor}{{7a}{13}}
+\newlabel{sub@fig:vanilla_sizeTor}{{a}{13}}
+\newlabel{fig:vanilla_d2u}{{7b}{13}}
+\newlabel{sub@fig:vanilla_d2u}{{b}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Result of {\tt  {sizeHist}} classifier on noisy Bitcoin traffic\relax }}{13}}
+\newlabel{fig:sizeHist_non}{{7}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Modeling Normal Users}{14}}
+\newlabel{simpleuser}{{5.3}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Results}{14}}
+\newlabel{sec:exp}{{6}{14}}
+\newlabel{fig:tp}{{8a}{15}}
+\newlabel{sub@fig:tp}{{a}{15}}
+\newlabel{fig:fp}{{8b}{15}}
+\newlabel{sub@fig:fp}{{b}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Result of {\tt  {D2U}} classifier on noisy Bitcoin\xspace  traffic\relax }}{15}}
+\newlabel{fig:d2u}{{8}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}User Profiles and False Data}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Size-based Classifiers}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{{\tt  {SizeHist}} Classifier}{15}}
+\citation{keras}
+\citation{tensorflow2015-whitepaper}
+\@writefile{toc}{\contentsline {subsubsection}{The {\tt  {D2U}} Classifier}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Shape-based Classifier}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Block detection rate using window-based classifier\relax }}{17}}
+\newlabel{fig:window}{{9}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Neural Network-based Classifier}{17}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Result of Neural Network classifier\relax }}{17}}
+\newlabel{tab:nn}{{3}{17}}
+\citation{pluggable-transport}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Summary and Comparison of the Results}{18}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Countermeasures}{18}}
+\citation{scramblesuit}
+\citation{meek-PETS}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Bitcoin Over Tor}{19}}
+\newlabel{sec:tor}{{7.1}{19}}
+\@writefile{toc}{\contentsline {subsubsection}{Pluggable Transports}{19}}
+\newlabel{fig:ratio_609_upstream_compact_vanilla_tor}{{10a}{19}}
+\newlabel{sub@fig:ratio_609_upstream_compact_vanilla_tor}{{a}{19}}
+\newlabel{fig:ratio_609_downstream_compact_vanilla_tor}{{10b}{19}}
+\newlabel{sub@fig:ratio_609_downstream_compact_vanilla_tor}{{b}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Histogram of one cell packet ratio for HTTP traffic and Bitcoin\xspace  traffic\relax }}{19}}
+\citation{tcp_p2p, ports, port_madhukar, payload_p2p}
+\citation{payload_p2p, payload_content, payload_app, payload_moore}
+\citation{ports}
+\citation{blinc}
+\citation{prot_fing}
+\citation{web_p2p}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Evaluating Bitcoin\xspace  over Tor}{20}}
+\@writefile{toc}{\contentsline {subsubsection}{{\tt  {SizeTor}} Classifier}{20}}
+\@writefile{toc}{\contentsline {subsubsection}{Neural Network-based Classifier}{20}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Result of Neural Network classifier for Tor dataset\relax }}{20}}
+\newlabel{tab:nn_tor}{{4}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Related Work}{20}}
+\newlabel{related}{{8}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Protocol Classification}{20}}
+\citation{semi}
+\citation{trafficClassSVM}
+\citation{svm2}
+\citation{MooreZ05}
+\citation{bays2}
+\citation{mlEffi}
+\citation{tree}
+\citation{survey_ml, myth}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Detecting Bitcoin compact mode traffic behind Tor (Tor and its three pluggable transports: meek, obfs, fte) Using SizeTor\relax }}{21}}
+\newlabel{fig:tor_sizeTor}{{11}{21}}
+\citation{hijack}
+\citation{eclipse}
+\citation{analysis_anon, privacy_anon, struct, fist, quant}
+\citation{fist}
+\citation{deanom1}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Attacks on Bitcoin\xspace  Cryptocurrency}{22}}
+\citation{double}
+\citation{majority}
+\citation{refund}
+\bibstyle{abbrv}
+\bibdata{refs, censBib}
+\bibcite{tensorflow2015-whitepaper}{1}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Conclusions}{23}}
+\bibcite{Andrychowicz:2014}{2}
+\bibcite{hijack}{3}
+\bibcite{bays2}{4}
+\bibcite{Bitcoinnetworkoverview}{5}
+\bibcite{deanom1}{6}
+\bibcite{fing-attacks-defenses}{7}
+\bibcite{trafficClassSVM}{8}
+\bibcite{keras}{9}
+\bibcite{prot_fing}{10}
+\bibcite{tor}{11}
+\bibcite{probabilitybook}{12}
+\bibcite{fte}{13}
+\bibcite{semi}{14}
+\bibcite{web_p2p}{15}
+\bibcite{majority}{16}
+\bibcite{meek-PETS}{17}
+\bibcite{deep_learning_book}{18}
+\bibcite{eclipse}{19}
+\bibcite{herrmann2009website}{20}
+\bibcite{ports}{21}
+\bibcite{tcp_p2p}{22}
+\bibcite{blinc}{23}
+\bibcite{double}{24}
+\bibcite{adam}{25}
+\bibcite{mlEffi}{26}
+\bibcite{refund}{27}
+\bibcite{meek}{28}
+\bibcite{fist}{29}
+\bibcite{Miller:2014}{30}
+\bibcite{MooreZ05}{31}
+\bibcite{bc-design}{32}
+\bibcite{nakamoto2008bitcoin}{33}
+\bibcite{deepcore}{34}
+\bibcite{survey_ml}{35}
+\bibcite{obfsproxy}{36}
+\bibcite{pluggable-transport}{37}
+\bibcite{tree}{38}
+\bibcite{analysis_anon}{39}
+\bibcite{payload_p2p}{40}
+\bibcite{scramblesuit}{41}
+\bibcite{wright2007language}{42}
+\bibcite{obfs4}{43}
+\bibcite{svm2}{44}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Bitcoin\xspace  Protocol Messages}{26}}
+\newlabel{sec:bcmessages}{{A}{26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Synchronization Messages}{26}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces The list of Bitcoin communication messages\relax }}{27}}
+\newlabel{tab:bc-proto-list}{{5}{27}}
+\newlabel{table:msg_description}{{5}{27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Block-Related Messages}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Different relaying modes in Bitcoin\relax }}{28}}
+\newlabel{fig:protocol-flow}{{12}{28}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Bitcoin\xspace  Traffic Shape}{29}}
+\newlabel{sec:bcshape}{{B}{29}}
+\newlabel{fig:tor_reg_traffic_pkt_size_upstream}{{13a}{30}}
+\newlabel{sub@fig:tor_reg_traffic_pkt_size_upstream}{{a}{30}}
+\newlabel{fig:tor_reg_traffic_pkt_size_downstream}{{13b}{30}}
+\newlabel{sub@fig:tor_reg_traffic_pkt_size_downstream}{{b}{30}}
+\newlabel{fig:tor_compact_block_pkt_size_upstream}{{13c}{30}}
+\newlabel{sub@fig:tor_compact_block_pkt_size_upstream}{{c}{30}}
+\newlabel{fig:tor_compact_block_pkt_size_downstream}{{13d}{30}}
+\newlabel{sub@fig:tor_compact_block_pkt_size_downstream}{{d}{30}}
+\newlabel{fig:tor_fullblock_pkt_size_upstream}{{13e}{30}}
+\newlabel{sub@fig:tor_fullblock_pkt_size_upstream}{{e}{30}}
+\newlabel{fig:tor_fullblock_pkt_size_downstream}{{13f}{30}}
+\newlabel{sub@fig:tor_fullblock_pkt_size_downstream}{{f}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Distribution of packet sizes of HTTP and Bitcoin traffic behind Tor\relax }}{30}}

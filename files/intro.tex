@@ -1,0 +1,96 @@
+
+\section{Introduction}
+
+\bc and similar blockchain-based currencies~\cite{bc-design} have  
+seen rapid adoption by consumers and industry because of their many applications in
+electronic commerce and other trust-based distributed systems. 
+Bitcoin
+supports \$1--\$4.2B worth of transactions per day, growing
+steadily.%\red{https://www.blockchain.com/charts/estimated-transaction-volume-usd I found the numbers from here.}
+ Bitcoin and similar virtual
+currencies offer significant advantages compared to
+traditional electronic currencies, which include
+open access to a global e-commerce infrastructure,
+lower transaction fees, cryptographically supported
+contracts~\cite{Andrychowicz:2014} and services~\cite{Miller:2014},
+and transnational operations.
+
+Given this significant importance of electronic currencies,
+they need to be resistant to embargoes by governments.  
+That is, people investing in cryptocurrencies (by running businesses that rely on such currencies) 
+should be assured that their Internet providers or governments are not able to prevent them from 
+using their cryptocurrencies if they decide too.
+For the sake of argument, consider what happens if the Great Firewall of China
+decides to block all \bc traffic overnight.%\red{https://thenextweb.com/hardfork/2018/10/08/china-means-intent-destroy-bitcoin/ This the best I found to check if China can be dangerous for \bc}.  
+
+
+In this paper, we investigate the resilience of \bc to blocking by powerful network 
+entities, including  ISPs and governments. 
+Note that identifying standard (non-encrypted) \bc traffic is trivial 
+as \bc messages use specific packet contents and formats.
+Therefore, a trivial countermeasure to prevent an ISP from identifying \bc traffic is to 
+tunnel \bc over an encrypting tool, e.g., VPN, SSH, or Tor. 
+However, previous studies~\cite{wright2007language,herrmann2009website,fing-attacks-defenses} show that encryption is \emph{not enough} to conceal the
+nature or even the content of communications.  Such attacks are broadly known as \emph{traffic analysis}.
+
+
+In this paper, we investigate if and how  \bc's traffic can be identified through traffic analysis despite being tunneled through an encrypted channel. 
+First, we characterize \bc's traffic patterns such as rates, timings, and sizes. 
+Comparing with other protocols, we show that \bc has traffic patterns that are unique, because of the specific types of messages sent by \bc peers. 
+Leveraging such unique features of \bc traffic, we design a toolset of classifiers in order to distinguish \bc traffic over encrypted channels. 
+%\fatemeh{The last sentence of item 3 is too important to be left out from the intro before. In following I tried to apply your comment. Saying that we use 2 month of traffic, etc.}
+We perform extensive evaluations of our classifiers by capturing \bc traffic in the wild. Particularly, we use more than two month of \bc  and other protocols traffic over Tor~\cite{tor} and three Tor pluggable transports~\cite{pluggable-transport}, namely, FTE~\cite{fte}, meek~\cite{meek}, and obfs4~\cite{obfsproxy} to evaluate our classifiers.%VPN~\cite{vpnGate},
+
+Our experiments show that while such obfuscation mechanisms modify \bc's traffic by changing the sizes of packets, and changing packet latencies, for each of the protocols we are able to design a reliable classifier to identify \bc traffic from other traffic. 
+Our classifiers can even detect \bc traffic mixed with background traffic such as open browser tabs.
+%To be realistic, we even mix the \bc traffic with background traffic such as open browser tabs.    
+
+%Based on our experiments, we conclude that it is extremely hard to hide \bc traffic using standard obfuscation mechanism. This is due to a fundamental issue: \bc (and any other cryptocurrency system) consists of specific protocol messages with unique sizes and frequencies; to hide such patterns, an obfuscating protocol needs to apply significant cover traffic or apply large perturbations, which is undesirable for typical clients. 
+%\fatemeh{I removed the part which suggests countermeasure as future work}
+
+Based on our experiments, we conclude that standard obfuscation mechanism do not do a good job in hiding Bitcoin traffic. 
+This is due to a fundamental issue: Bitcoin (and all blockchain protocols we are aware of) generate of particular protocol messages with unique sizes and frequencies. To hide such unique patterns, an obfuscating protocol needs to apply significant cover traffic or apply large perturbations. 
+The latter option has significant implications to the security of a cryptocurrency system.
+
+%We suggest that future work should look into designing obfuscation protocols that are tailored to \bc (and similar cryptocurrencies) in a way to optimize resilience to detection and resource efficiency. 
+ 
+ 
+ 
+
+
+%why it is important to evaluate blocking of bitcoin, companies, countries, impacts the sustainability of bc, and in general other crypto correntcies. 
+%An important missing part in literature, they dont evaluate how these currencies are resistant to overnight blocking, people want to invest in something, especially in censored countires, but they need to know if that's guaranteed.. 
+
+%In this paper we show that encryption is not enough to conceal \bc traffic. We should that even if \bc users use standard content obfuscation mechanisms, like VPNs and Tor, their \bc traffic can still be detected with high success. In particular, we show that \amir{some numbers}. 
+
+%What enables us to design such classifiers is the unique traffic features of \bc communications. We further evaluate our classifiers on other cryptocurrencies with less distint(?) fetures, showing that we can still detect them. 
+
+In summary we make the following main contributions:
+
+\begin{compactenum}
+	\item We evaluate \bc's traffic and characterize the patterns of \bc traffic such as its packet sizes and traffic shape. We compare \bc's traffic patterns to other popular protocols showing its patterns to be unique.  
+	\item Based on our characterization of \bc traffic, we design a range of classifiers whose goal is to identify \bc traffic despite being tunneled through an encrypted channel (like Tor) and in the presence of background noise (e.g., open browser tabs). 
+	\item Using several months of \bc traffic and other protocols, we perform experiments to evaluate our classifiers. We evaluate our classifiers when \bc traffic is tunneled over Tor and three Tor pluggable transports of FTE~\cite{fte}, meek~\cite{meek} and obfs4~\cite{obfsproxy}. Our classifiers are able to identify \bc traffic in all cases with only $10$ minutes of traffic.
+	%\item We introduce countermeasures to hide \bc traffic and show that  using these countermeasures we will not be able to differentiate \bc traffic from others.
+\end{compactenum}
+
+
+
+ \section{Background on Bitcoin}
+\bc is the most popular cryptocurrency. It uses  a decentralized, peer-to-peer architecture~\cite{nakamoto2008bitcoin}, where each peer (e.g., client) is identified by her unique public key.  
+	\bc clients exchange money through \bc transactions, which are  broadcasted on \bc's p2p network. 
+
+	To prevent double spending and similar violations, \bc uses a public ledger called the \emph{blockchain} to store all \bc transactions. The blockchain is a chain of \emph{blocks}, where  each block contains a set of transactions and a \textit{proof-of-work}. A proof-of-work is a piece of data which is time-consuming and costly to generate. However, verifying the proof-of-work is easy. Each block is valid if and only if all of its transactions and its proof-of-work are valid. A verified block is broadcast on the network to update all peers' local ledgers. 
+	
+	\paragraphb{\bc's P2P Network.}
+	\bc nodes form a full-mesh P2P network, and they connect to each other over unencrypted TCP connections. 
+	Each node can connect to   up to 125 peers, where up to 8 of them are  outgoing connections and the rest are incoming connections. A node stays connected to a neighbor until they restart or drop, in which case the node tries to replace them~\cite{Bitcoinnetworkoverview}. 
+	%Since connection is without authentication, peers just keep a list of their connection IP addresses.
+	Blocks and transactions are propagated by gossip. To avoid DoS attacks, peers only forward valid blocks and transactions; invalid blocks are discarded. 
+Bitcoin peers can be separated into two types: routable and non-routable. The former are capable of accepting incoming connections, and the latter are not, for example because they are behind a NAT or firewall. However, it is worth mentioning that the official {\tt Bitcoind} software does not precisely split its functionality among routable and non-routable peers. 
+
+\paragraphb{\bc Protocol Messages.}
+	 \bc   communications involve various protocol messages that are created by  \bc peers. 
+	 We divide \bc protocol messages into two classes: \emph{synchronization messages},  which are used for  propagating user addresses and transactions in the \bc network, and \emph{block-related messages}, which are responsible for disseminating \bc blocks. We introduce  major \bc messages in  Appendix~\ref{sec:bcmessages} due to space constraints.
+	Please refer to Table~\ref{tab:bc-proto-list} for a full list of \bc protocol messages.
+
