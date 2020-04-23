@@ -11,7 +11,7 @@ pluggable transports~\cite{pluggable-transport} namely \textit{obfs4}, \textit{F
 \subsubsection{Pluggable Transports}
 \begin{compactitem}
 \item	\textbf{Obfs4:}
-obfs4 is a widely used Tor pluggable transport, which is based on \textit{Scramblesuit}~\cite{scramblesuit}. It differs with ScrambleSuit in public key obfuscation and its protocol for one-way authentication, which makes it faster. 
+obfs4 is a widely used Tor pluggable transport, which is based on \textit{ScrambleSuit}~\cite{scramblesuit}. It differs with ScrambleSuit in public key obfuscation and its protocol for one-way authentication, which makes it faster. 
 \item \textbf{FTE} 
 The FTE transport re-encrypts Tor packets in order to match the regular expressions of a benign protocol like HTTP. 
 \item\textbf{meek}
@@ -34,19 +34,18 @@ Meek uses \textit{domain fronting}~\cite{meek-PETS} to tunnel traffic through pu
 \caption{Histogram of one cell packet ratio for HTTP traffic and \bc traffic}
 \end{figure}
 
-As it is shown in Section~\ref{sec:charachterzing_bc}, the distribution of packet sizes differs in \bc and other types of traffic. While Tor modifies the sizes of \bc traffic, we show that this does not remove all traffic patterns that reveal \bc.
-we compare the distribution of packet sizes in HTTP traffic and \bc traffic behind Tor. 
+As it is shown in Section~\ref{sec:charachterzing_bc}, the distribution of packet sizes differs in \bc and other types of traffic. While Tor modifies the sizes of \bc traffic, we show that this does not remove all traffic patterns that reveal \bc. We compare the distribution of packet sizes in HTTP traffic and \bc traffic behind Tor. 
 Figures~\ref{fig:tor_reg_traffic_pkt_size_upstream} to \ref{fig:tor_compact_block_pkt_size_downstream} 
  compare the distribution of packet sizes of HTTP and \bc when tunneled over Tor in different modes, showing an identifiable pattern.
-We particularly see that \bc traffic has a larger ratio of one-cell packets compared to Tor. This is due to a large number of small \bc messages (e.g., \code{inv}) that are each put into a single-cell packets. Figures \ref{fig:ratio_609_upstream_compact_vanilla_tor} and \ref{fig:ratio_609_downstream_compact_vanilla_tor} show the histogram of one cell size packets ratio in the upstream and downstream direction. 
+We particularly see that \bc traffic has a larger ratio of one-cell packets compared to Tor. This is due to a large number of small \bc messages (e.g., \code{inv}) that are each put into a single-cell packets. Figures \ref{fig:ratio_609_upstream_compact_vanilla_tor} and \ref{fig:ratio_609_downstream_compact_vanilla_tor} show the histogram of one cell size packets ratio in the upstream and downstream directions. 
 \subsection{Evaluating \bc over Tor}
-\subsubsection{\code{SizeTor} Classifier}
-We implement ~\code{SizeTor} classifier on noisy \bc on compact mode for Tor and its three pluggable transports. As it is displayed in Figure~\ref{fig:tor_sizeTor}, we could detect \bc traffic with high accuracy for the complex User-1 model when the background noise is one open tab. As Figure~\ref{fig:tor_sizeTor} indicates, having a traffic size of $10$ minutes is
+\subsubsection{\code{SizeTor} classifier}
+We implement ~\code{SizeTor} classifier on noisy \bc on compact mode for Tor and its three pluggable transports. As it is displayed in Figure~\ref{fig:tor_sizeTor}, we could detect \bc traffic with high accuracy for the complex user model when the background noise is one open tab. As Figure~\ref{fig:tor_sizeTor} indicates, having a traffic size of $10$ minutes is
 enough to detect \bc traffic with around $90\%$ true positive and $0\%$ of false positive. Moreover, the Figure states that the result of classifier quickly diminishes when we increase the background noise from one to $2$ or $3$ open tabs.
 Note that this figure shows the average result of this classifier on Tor and three pluggable transports.
-\subsubsection{Neural Network-based Classifier}
+\subsubsection{Neural Network-based classifier}
 Table~\ref{tab:nn_tor} presents the result of NN-based classifier for the complex web user over Tor for $10,000$ numbers of test data. As the table suggests, performance of our classifier improves when we increase the size of training data. More specifically, our false positives enhances from $11\%$ to $4\%$ when we increase the training data from $1000$ to $20,000$. Moreover, when using $20,000$ training data, we reach $99\%$ and $4\%$ true and false positive, respectively ($97\%$ accuracy). Note that the reason we get better results from this classifier on Tor dataset is that this dataset only contains the complex web user since we did not have CAIDA application over Tor to use for our evaluation.
-
+\begin{comment}
 \begin{table}[h!]
   \begin{center}
      \caption{Result of Neural Network classifier for Tor dataset}
@@ -61,10 +60,27 @@ Table~\ref{tab:nn_tor} presents the result of NN-based classifier for the comple
     \end{tabular}
   \end{center}
 \end{table}
+\end{comment}
+
+\begin{table}
+\center \caption{Result of neural network classifier on Tor dataset.}\label{tab:nn_tor}
+\begin{tabular}{|c|c|c|c|}
+\hline
+ Training size& False positive ($\%$) &True positive ($\%$)&Accuracy ($\%$)\\
+      \hline
+	$1000$&$11$ &$98 $  & $93$\\
+	$5000$&$6$& $98$  & $96$\\
+	$10,000$&$3$& $98$  &$ 97$\\
+	$20,000$&$4$& $99$   & $97$\\
+\hline
+\end{tabular}
+\end{table}
+
+
 \begin{figure}
 \centering
 \includegraphics[scale=0.15]{image/jan25/sizeTor-multiTab.pdf}%roc is also available
-\caption{Detecting Bitcoin compact mode traffic behind Tor (Tor and its three pluggable transports: meek, obfs, fte) Using SizeTor}
+\caption{Detecting Bitcoin compact mode traffic behind Tor (Tor and its three pluggable transports: meek, obfs, fte) using SizeTor}
 \label{fig:tor_sizeTor}
 \end{figure}
 
@@ -78,7 +94,7 @@ Another countermeasure that we evaluate is passing our traffic through VPN. Sinc
 \begin{subfigure}{.48\linewidth}
 \centering
 \includegraphics[width=\linewidth]{image/jan25/vpn_d2u.pdf}
-\caption{Result of \code{D2U} classifier according to Traffic Length and Think Time}
+\caption{Result of \code{D2U} classifier according to traffic length and think time}
 \label{fig:tp}
 \end{subfigure}
 \centering

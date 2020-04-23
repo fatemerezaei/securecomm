@@ -1,7 +1,7 @@
 \section{Designing \bc Classifiers}
 We use the features described above to build robust classifiers for \bc traffic. 
 We aim for our classifiers to work even in the presence of encryption and background traffic, e.g., 
-when the machine running \bc is used for web browsing and runs other applications, or when the \bc traffic is tunneled over Tor or VPN. %user's traffic is mixed with the traffic of other users in a big VPN connection. 
+when the machine running \bc is used for web browsing and runs other applications, or when the \bc traffic is tunneled over Tor. %user's traffic is mixed with the traffic of other users in a big VPN connection. 
 For a target connection, our classifiers extract specific features from it, using which decide if the target traffic contains \bc or not. Each of our classifiers extract certain features as introduced below. We evaluate the performance of our classifiers using false positive, true positive and accuracy.
 
 \subsection{Size-based Classifier}
@@ -16,11 +16,11 @@ In the next step, the classifier calculates the cosine similarity between the hi
 \input{algorithm_packet_size}% the error is bc of caption in these algorithms
 
 
-\subsubsection{Tor-specific Classifier (\code{SizeTor}):}
+\subsubsection{Tor-specific classifier (\code{SizeTor}):}
 
 Some tunneling systems modify the sizes of packets to prevent information leakage. In particular, Tor~\cite{tor}
 reformats traffic into constant-sized segments called  \emph{cells}. However, as the size of a cell is smaller than the MTU of IP packets, depending on the volume of traffic, multiple cells can merge into one single packet. This makes the number of single-cell packets and multiple-cell packets different for different protocols tunneled over Tor. Our \code{SizeTor} classifier aims at detecting \bc traffic tunneled over Tor based on the distribution of single-cell packets. 
-As shown in Section~\ref{sec:charachterzing_bc}, \bc traffic consists of a large number of small-size packets (due to frequent \code{inv} messages). Tor will add padding to these small packets to form cells. Therefore, the ratio of single-size packets in \bc over-Tor is larger that regular traffic over Tor, e.g., HTTP-over-Tor. Based on this, our classifier compares the ratio of single-cell packets to all packets; if the ratio is larger than a threshold, the connection will be flagged as a \bc connection. 
+As shown in Section~\ref{sec:charachterzing_bc}, \bc traffic consists of a large number of small-size packets (due to frequent \code{inv} messages). Tor will add padding to these small packets to form cells. Therefore, the ratio of single-size packets in \bc over-Tor is larger than regular traffic over Tor, e.g., HTTP-over-Tor. Based on this, our classifier compares the ratio of single-cell packets to all packets; if the ratio is larger than a threshold, the connection will be flagged as a \bc connection. 
 Note that while our \code{SizeTor} classifier is tailored for Tor, it can be adjusted for other protocols that similarly change the size of packets.
 \paragraph*{Tailoring for Tor Pluggable Transports}
  Through our experiments on \bc traffic over Tor pluggable Transports, we noticed that fraction of packets which have a specific size other than cell-size (for example, size $721$ in FTE ) are much larger than this value in normal traffic. Furthermore, this value is much larger than the fraction of packets which are in cell size. Therefore, when implementing sizeTor on pluggable transports, we compute the fraction of packets in these specific sizes to differentiate between \bc traffic and others.
@@ -31,7 +31,7 @@ Note that while our \code{SizeTor} classifier is tailored for Tor, it can be adj
 
 \subsubsection{Downstream to upstream traffic volume ratio (\code{D2U})}
 As we discussed in Section~\ref{sec:charachterzing_bc}, the ratio of downstream to upstream traffic volume is unique in \bc. This classifier looks at $t$ window of \bc traffic. The $t$ parameter should be at least $10$ minutes to include at least one block in it.
-Then the downstream to upstream ratio is calculated for the target traffic. If the calculated ratio is larger than a threshold, which is determined empirically, the traffic will be detected as \bc traffic. The threshold is defined in a way to distinguish \bc traffic from other traffic while minimizing false positive. This detection scheme will be effective even in the situation that the underlying system changes the packet sizes and packet timings, since the transmitted traffic volume in both directions would stay the same.
+Then the downstream to upstream ratio is calculated for the target traffic. If the calculated ratio is \red{larger} than a threshold, which is determined empirically, the traffic will be detected as \bc traffic. The threshold is defined in a way to distinguish \bc traffic from other traffic while minimizing false positive. This detection scheme will be effective even in the situation that the underlying system changes the packet sizes and packet timings, since the transmitted traffic volume in both directions would stay the same.
 
 \subsection{Shape-based Classifier}\label{window-sec}
 
@@ -39,7 +39,7 @@ We demonstrated in Section~\ref{sec:shape_of_traffic} that the shape of \bc traf
 We therefore design classifiers that try to identify (encrypted) \bc traffic based on its shape. 
 The main intuition of our shape-based classifier is looking for changes in the traffic volume of a target user around the times of block announcements. Therefore, we assume that the classifier obtains the times and sizes of \bc blocks, e.g., from the public \url{blockchain.info} repository, or even by running a local \bc client.
 
-Algorithm~\ref{algo:window_based_scheme} illustrates our window shape correlation algorithm.
+Algorithm~\ref{algo:window_based_scheme} illustrates our shape-based correlation algorithm.
 For each confirmed \bc block, the algorithm analyzes the volume of the target traffic during the broadcasting time of that block. 
 To do so, the algorithm 
 defines two time windows with size $\omega_i$ around the block time, 
@@ -68,7 +68,7 @@ The classifier then correlates the target traffic with each of the $N$ ground fa
 %+ \alpha \ std(CF)
 where $CF$ is the set of correlation values against the $N$ ground false instances. In another words, we choose $\eta$ to be larger than the largest correlation value.
 
-\paragraphb{Choosing other parameters.} The window shape classifier also needs to choose the values of the parameters $\omega$ and $J$. Parameter $\omega$ needs to be big enough to contain the most of the traffic of a block during block propagation. Moreover, Parameter $J$ is chosen to take into account that some  of the block propagation traffic might not be downloaded in that time window. This parameters needs to be selected based on user's bandwidth and the volume of background traffic , and therefore it needs to be chosen for each client specifically. 
+\paragraphb{Choosing other parameters.} The window shape classifier also needs to choose the values of the parameters $\omega$ and $J$. Parameter $\omega$ needs to be big enough to contain the most of the traffic of a block during block propagation. Moreover, Parameter $J$ is chosen to take into account that some  of the block propagation traffic might not be downloaded in that time window. This parameters needs to be selected based on user's bandwidth and the volume of background traffic, and therefore it needs to be chosen for each client specifically. 
 
 % based
 %on the features of the target user's traffic, e.g., her bandwidth and the volume of background traffic, and therefore it needs to be chosen for each client specifically. 
@@ -81,7 +81,7 @@ We estimate a target client's block downloading time as $\frac{block\ size}{clie
 
  
 \subsection{Neural Network-based Classifier (NN-based)}\label{class:nn}
-We also use Neural Network-based classifiers to detect \bc in presence of a more complex background noise, e.g., browsing more than one website simultaneously. In following, we explain the feature selection phase, and then describe the design of our neural network.
+We also use a neural network-based classifier to detect \bc in presence of a more complex background noise, e.g., browsing more than one website simultaneously. In following, we explain the feature selection phase, and then describe the design of our neural network.
 \subsubsection{Feature selection}
 Again, we leverage the unique shape of \bc traffic as discussed before to classify \bc traffic using our NN-based classifier. To create each sample data, we divide time into intervals
 and use the volume of traffic in each interval as our features, which is 
@@ -103,8 +103,8 @@ length $60$ as our feature vector.
 \mbox{vlm}=v_1, v_2, ..., v_{n}
 \end{equation}\fi
 \subsubsection{Designing the model}
-For our neural network model, we use a multi-layer perceptron that 
-consists of an input layer, an output layer, and two fully-connected hidden layers. The input layer has $n=60$ number of neurons, which is the size of each sample data, the hidden layers have $n_1=32$ and $n_2 = 16$ number of neurons, respectively, and the output layer has $1$ neuron which represents if the sample data contains \bc 
+For our neural network model, we use a combination of convolutional and fully-connected network that 
+consists of an input layer, an output layer, and three hiden layers: one convolutional layer, and two dense layers. The input layer has $n=60$ number of neurons, which is the size of each sample data, the hidden layers have $n_1=64$, $n_2=32$ and $n_3 = 16$ number of neurons, respectively, and the output layer has $1$ neuron which represents if the sample data contains \bc 
 traffic or not. We use Relu as the activation function of the hidden layers and 
 sigmoid~\cite{deep_learning_book} for the output layer. Also, we use binary cross-entropy as our loss function, and Adam optimization~\cite{adam} to minimize the loss. %The learning rate of the optimization 
 %function is a hyperparameter of our model ( $lr$).

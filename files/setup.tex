@@ -27,7 +27,7 @@ We extracted the flows in this database based on the protocol type, IP addresses
 For each IP address, we consider all traffic to and from that IP as the typical traffic of that user. Table~\ref{tab:traffic_class} shows the class breakdown of CAIDA dataset used in our experiments.
 
 \paragraphb{HTTP traffic:}% (normal traffic, behind VPN and Tor)
-We collect top $500$ Alexa websites using Selenium Tool. Also, we capture these websites over Tor, and three pluggable transports. Moreover, we use 
+We collect top $500$ Alexa websites using Selenium tool. Also, we capture these websites over Tor, and three pluggable transports. Moreover, we use 
 the dataset by~\cite{deepcore} which has collected the top $50,000$ Alexa websites over Tor. 
 
 %\end{compactitem}
@@ -53,7 +53,7 @@ the dataset by~\cite{deepcore} which has collected the top $50,000$ Alexa websit
 \end{figure}
 \fi
 
-
+\begin{comment}
  \begin{table}[h!]
   \begin{center}
     \caption{Traffic Class Breakdown For CAIDA Dataset}
@@ -73,14 +73,31 @@ the dataset by~\cite{deepcore} which has collected the top $50,000$ Alexa websit
     \end{tabular}
   \end{center}
 \end{table}
+\end{comment}
 
+\begin{table}
+\center \caption{Traffic class breakdown for CAIDA dataset}\label{tab:traffic_class}
+\begin{tabular}{|c|c|c|c|}
+\hline
+ Traffic class& Port numbers &Number of connections&$\%$of total\\
+      \hline
+		http, https& $80, 8080, 443$&745262&$0.318$\\
+		dns& $53$&1073758&$0.457$\\
+		smtp& $25$&2646&$0.001$\\
+		telnet&$23$&6958&$0.003$\\
+		ssh/scp&$22$&4928&$0.002$\\
+		other&$-$&511700&$0.219$\\
+		all &$-$&2345252&1.0\\
+\hline
+\end{tabular}
+\end{table}
 
 \subsection{Metrics}
 
 We use following metrics to measure the performance of our classifiers:
 \begin{compactitem}
-\item \textbf{True Positive:} True positive shows the proportion of the data which contain \bc, and our model correctly identified as \bc traffic.
-\item \textbf{False Positive:} False positive shows the proportion of the data which did  not contain \bc traffic, and our model incorrectly classified as \bc.
+\item \textbf{True positive:} True positive shows the proportion of the data which contain \bc, and our model correctly identified as \bc traffic.
+\item \textbf{False positive:} False positive shows the proportion of the data which did  not contain \bc traffic, and our model incorrectly classified as \bc.
 \item \textbf{Accuracy:} Accuracy shows the proportion of the data which was correctly classified.
 \end{compactitem}
 \begin{figure*}
@@ -102,7 +119,7 @@ We use following metrics to measure the performance of our classifiers:
 \end{figure*} 
 \subsection{Modeling Normal Users}\label{simpleuser}
 
-In this section, we describe four different types of users' profile that we use to evaluate the performance of our \bc classifiers against. Users may have some background traffic while using Bitcoin or they can generate noisy traffic to evade detection. Therefore, we attempt to model typical behavior of users in various scenarios to evaluate the performance of our system.
+In this section, we describe four different types of users' profile that we use to evaluate the performance of our \bc classifiers against. Users may have some background traffic while using Bitcoin or they can generate noisy traffic to evade detection. Therefore, we attempt to model typical behavior of users in various scenarios, and apply each classifier on one or more number of these profiles to evaluate their performance.
 
 \begin{itemize}
     \item Simple User: A simple user is a Bitcoin client with no background noise and traffic. This type of user does not generate any network traffic except the Bitcoin client application traffic. Therefore, all traffic of the simple user is Bitcoin traffic. 
@@ -120,7 +137,7 @@ In this section, we describe four different types of users' profile that we use 
 We repeat this process for $I$ number of times, which represents the number of open tabs. The reason that we do not add noise from start to the end of the flow is that we want to make the background noise nonuniform, thus prevent the classifier from learning the noise and denoising the traffic.
     \item Complex CAIDA User: A complex CAIDA user is a \bc client who is running 1-5 number of CAIDA applications, which is introduced in table 2 simultaneously in the background. We use the same algorithm as above to create this user profile.
 \end{itemize}    
-We define four different user profiles from simple behavior to more realistic and complicated ones. We apply each classifier on one or more number of these profiles to evaluate their performance.
+%We define four different user profiles from simple behavior to more realistic and complicated ones. 
 
 
 \begin{comment}
